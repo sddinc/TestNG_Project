@@ -8,6 +8,6 @@ public class test {
 
         System.out.println(ConfigurationReader.getProperty("selcuk"));
         System.out.println("Sinan bir serfsiz....");
-
+//selcukkk
     }
 }
