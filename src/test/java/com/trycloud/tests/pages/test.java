@@ -6,8 +6,6 @@ import com.trycloud.utilities.Driver;
 public class test {
     public static void main(String[] args) {
 
-        System.out.println(ConfigurationReader.getProperty("selcuk"));
-        System.out.println("Sinan bir serfsiz....");
-//selcukkkjghjghj
+        System.out.println("Sinani seviyorum....");
     }
 }
