@@ -6,5 +6,5 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class OnurTest {
 
-    WebDriver driver = new ChromeDriver();
+    WebDriver driver = new ChromeDriver(); // Slm
 }
