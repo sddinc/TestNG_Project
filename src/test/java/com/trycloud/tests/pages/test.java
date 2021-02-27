@@ -6,7 +6,8 @@ import com.trycloud.utilities.Driver;
 public class test {
     public static void main(String[] args) {
 
-        System.out.println("Today is last day for Register..");
-        System.out.println("Did you register for Spring Semester.");
+
+        System.out.println("Sinani seviyorum....");
+
     }
 }
