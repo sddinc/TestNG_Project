@@ -1,4 +1,4 @@
 package com.trycloud.tests.pages;
 
-public class Selcuk {
+public class Secuk {
 }
