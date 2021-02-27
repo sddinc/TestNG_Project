@@ -7,5 +7,6 @@ public class test {
     public static void main(String[] args) {
 
         System.out.println(ConfigurationReader.getProperty("selcuk"));
+        System.out.println("Sinan bir serfsiz....");
     }
 }
