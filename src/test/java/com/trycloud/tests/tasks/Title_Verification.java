@@ -1,6 +1,6 @@
 package com.trycloud.tests.tasks;
 
-import com.sun.org.glassfish.gmbal.Description;
+
 import com.trycloud.tests.pages.Google_Home;
 import com.trycloud.tests.pages.Home_Etsy;
 import com.trycloud.utilities.ConfigurationReader;
@@ -62,9 +62,21 @@ public class Title_Verification {
         Assert.assertTrue(Driver.getDriver().getTitle().startsWith(item));
 
 
-
     }
 
+    @Test(description = "TC #5: Basic login authentication\n" +
+            "1- Open a chrome browser\n" +
+            "2- Go to:\n" +
+            "http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx\n" +
+            "3- Verify title equals:\n" +
+            "Expected: Web Orders Login")
 
+    public void smartBearTitleVerify(){
+        Driver.getDriver().get(ConfigurationReader.getProperty("urlSmartBear"));
+        String expectedTitle = "Web Orders Login";
+        String actualTitle = Driver.getDriver().getTitle();
+        Assert.assertEquals(actualTitle, expectedTitle, "Wrong title");
+
+    }
 
 }
