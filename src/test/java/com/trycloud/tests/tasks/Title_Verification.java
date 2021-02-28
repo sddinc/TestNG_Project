@@ -45,10 +45,11 @@ public class Title_Verification {
         String expectedText="Gmail";
         Assert.assertTrue(Driver.getDriver().getTitle().contains(expectedText));
 
+        Driver.getDriver().navigate().back();
 
+        Assert.assertEquals(Driver.getDriver().getTitle(),"Google","Wrong Title");
 
     }
-
 
 
 
