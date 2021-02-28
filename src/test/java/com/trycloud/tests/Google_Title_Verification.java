@@ -9,16 +9,15 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 public class Google_Title_Verification {
-    WebDriver driver;
+
 
 
     @Test
     public void Title_Verification(){
         Driver.getDriver().get(ConfigurationReader.getProperty("urlGoogle"));
-      //  WebElement element = driver.findElement(By.id())
         String expectedTitleVerify = "Google";
-        String actualTitleVerify = driver.getTitle();
-        driver.close();
+        String actualTitleVerify = Driver.getDriver().getTitle();
+
         Assert.assertEquals(actualTitleVerify,expectedTitleVerify,"title is not verify!!");
 
     }
