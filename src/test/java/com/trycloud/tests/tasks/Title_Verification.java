@@ -49,6 +49,20 @@ public class Title_Verification {
 
         Assert.assertEquals(Driver.getDriver().getTitle(),"Google","Wrong Title");
 
+
+    }
+
+    @Test(description = "TC #4: Google search\n" +
+            "1- Open a chrome browser\n" +
+            "2- Go to: https://google.com 3- Write “apple” in search box 4- Click google search button 5- Verify title:\n" +
+            "Expected: Title should start with “apple” word")
+    public void googleTittleVerificationAfterSearch(){
+        String item="apple";
+        google.sendItemsToGoogleSearch(item);
+        Assert.assertTrue(Driver.getDriver().getTitle().startsWith(item));
+
+
+
     }
 
 
