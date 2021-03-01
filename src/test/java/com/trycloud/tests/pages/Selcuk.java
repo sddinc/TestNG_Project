@@ -5,5 +5,6 @@ public class Selcuk {
 
 
         System.out.println("Heydar");
+        System.out.println("Jabbarov");
     }
 }
