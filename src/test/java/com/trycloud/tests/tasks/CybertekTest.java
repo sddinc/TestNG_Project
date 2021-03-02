@@ -23,6 +23,11 @@ public class CybertekTest {
     public void forgetWebElementsVerification(){
           cybertek.clickForget();
         Assert.assertTrue(forget.isHomeLinkDisplayed());
+        Assert.assertTrue(forget.isHomeLinkDisplayed());
+        Assert.assertTrue(forget.isForgetPasswordText());
+        Assert.assertTrue(forget.isEmailLabel());
+        Assert.assertTrue(forget.isRetrievePasswordButton());
+        Assert.assertTrue(forget.isPoweredByCybertekSchoolText());
 
     }
 
