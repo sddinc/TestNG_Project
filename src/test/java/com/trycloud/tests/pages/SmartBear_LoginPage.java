@@ -27,5 +27,6 @@ public class SmartBear_LoginPage {
         Driver.getDriver().get(ConfigurationReader.getProperty("urlSmartBear"));
         userNameInput.sendKeys(userName);
         userPassInput.sendKeys(password + Keys.ENTER);
+        System.out.println("birsey degil");
     }
 }
