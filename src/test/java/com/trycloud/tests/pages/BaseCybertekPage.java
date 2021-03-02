@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
 public abstract class BaseCybertekPage {
@@ -13,9 +14,9 @@ public abstract class BaseCybertekPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    WebDriverWait wait=new WebDriverWait(Driver.getDriver(),10);
+    public WebDriverWait wait=new WebDriverWait(Driver.getDriver(),10);
 
-    @BeforeMethod
+    @BeforeClass
     public static void setUp(){
         Driver.getDriver().get(ConfigurationReader.getProperty("urlCybertek"));
     }
