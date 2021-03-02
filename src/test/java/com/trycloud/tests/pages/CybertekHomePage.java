@@ -11,15 +11,13 @@ public class CybertekHomePage extends BaseCybertekPage{
 
 @FindBy(xpath = "//a[.='Forgot Password']")
     private WebElement forgetPasswordLink;
-    public  void clickForget(){
-        Driver.getDriver().get(ConfigurationReader.getProperty("urlCybertek"));
+    public  void clickForgetPassword(){
         forgetPasswordLink.click();
     }
 
     @FindBy(xpath = "//a[.='Add/Remove Elements']")
     private WebElement addRemoveLink;
     public  void clickAddRemoveLink(){
-        Driver.getDriver().get(ConfigurationReader.getProperty("urlCybertek"));
         addRemoveLink.click();
     }
 

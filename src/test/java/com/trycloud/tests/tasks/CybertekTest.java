@@ -1,16 +1,14 @@
 package com.trycloud.tests.tasks;
 
+import com.trycloud.tests.pages.BaseCybertekPage;
 import com.trycloud.tests.pages.CybertekAddRemoveElementsPage;
 import com.trycloud.tests.pages.CybertekPageForgetPassword;
 import com.trycloud.tests.pages.CybertekHomePage;
 import com.trycloud.utilities.Driver;
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.util.concurrent.TimeoutException;
-
-public class CybertekTest {
+public class CybertekTest extends BaseCybertekPage {
     CybertekHomePage cybertek = new CybertekHomePage();
     CybertekPageForgetPassword forget = new CybertekPageForgetPassword();
     CybertekAddRemoveElementsPage addRemove=new CybertekAddRemoveElementsPage();
@@ -27,7 +25,7 @@ public class CybertekTest {
             "f. “Powered by Cybertek School” text\n" +
             "4. Verify all WebElements are displayed.")
     public void forgetWebElementsVerification() {
-        cybertek.clickForget();
+        cybertek.clickForgetPassword();
         Assert.assertTrue(forget.isHomeLinkDisplayed());
         Assert.assertTrue(forget.isHomeLinkDisplayed());
         Assert.assertTrue(forget.isForgetPasswordText());
@@ -57,9 +55,25 @@ public class CybertekTest {
             Assert.assertFalse(false);
         }
 
+    }
+    @Test(description = "TC #3: PracticeCybertek/ForgotPassword URL verification\n" +
+            "1. Open Chrome browser\n" +
+            "2. Go to http://practice.cybertekschool.com/forgot_password 3. Enter any email into input box\n" +
+            "4. Click on Retrieve password\n" +
+            "5. Verify URL contains:\n" +
+            "Expected: “email_sent”\n" +
+            "6. Verify textbox displayed the content as expected.\n" +
+            "Expected: “Your e-mail’s been sent!”\n")
+    public void forgetPasswordVerification(){
+        cybertek.clickForgetPassword();
+        forget.enterEmail("selcuk@gmail.com");
+
+        Assert.assertTrue(Driver.getDriver().getTitle().contains("email_sent"));
+
 
 
     }
+
 
 
 }

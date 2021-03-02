@@ -1,5 +1,6 @@
 package com.trycloud.tests.pages;
 
+import com.trycloud.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -32,4 +33,16 @@ public class CybertekPageForgetPassword extends BaseCybertekPage {
     public boolean isPoweredByCybertekSchoolText() {
         return poweredByCybertekSchoolText.isDisplayed();
     }
+    @FindBy(xpath = "//input")
+    private WebElement emailInput;
+
+
+
+    public void enterEmail(String email){
+        emailInput.sendKeys(email);
+        retrievePasswordButton.click();
+
+    }
+
+
 }
