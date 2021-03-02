@@ -7,18 +7,20 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class CybertekHomePage{
-    public CybertekHomePage(){
-        PageFactory.initElements(Driver.getDriver(),this);
-        //PageFactory support POM
+public class CybertekHomePage extends BaseCybertekPage{
 
-    }
 @FindBy(xpath = "//a[.='Forgot Password']")
     private WebElement forgetPasswordLink;
-
     public  void clickForget(){
         Driver.getDriver().get(ConfigurationReader.getProperty("urlCybertek"));
         forgetPasswordLink.click();
+    }
+
+    @FindBy(xpath = "//a[.='Add/Remove Elements']")
+    private WebElement addRemoveLink;
+    public  void clickAddRemoveLink(){
+        Driver.getDriver().get(ConfigurationReader.getProperty("urlCybertek"));
+        addRemoveLink.click();
     }
 
 }
