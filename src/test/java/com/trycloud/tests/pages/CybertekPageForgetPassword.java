@@ -1,11 +1,9 @@
 package com.trycloud.tests.pages;
 
-import com.trycloud.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
-public class CybertekForgetPassword extends BaseCybertek {
+public class CybertekPageForgetPassword extends BaseCybertekPage {
 
     @FindBy(xpath = "//h2")
     private WebElement forgetPasswordText;
