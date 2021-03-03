@@ -1,9 +1,9 @@
 package com.trycloud.tests.tasks;
 
-import com.trycloud.tests.pages.BaseCybertekPage;
-import com.trycloud.tests.pages.CybertekAddRemoveElementsPage;
-import com.trycloud.tests.pages.CybertekPageForgetPassword;
-import com.trycloud.tests.pages.CybertekHomePage;
+import com.trycloud.tests.pages.cybertek.BaseCybertekPage;
+import com.trycloud.tests.pages.cybertek.CybertekAddRemoveElementsPage;
+import com.trycloud.tests.pages.cybertek.CybertekPageForgetPassword;
+import com.trycloud.tests.pages.cybertek.CybertekHomePage;
 import com.trycloud.utilities.Driver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
