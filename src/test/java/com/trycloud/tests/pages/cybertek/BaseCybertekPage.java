@@ -1,4 +1,4 @@
-package com.trycloud.tests.pages;
+package com.trycloud.tests.pages.cybertek;
 
 import com.trycloud.utilities.ConfigurationReader;
 import com.trycloud.utilities.Driver;
