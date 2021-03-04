@@ -1,9 +1,6 @@
 package com.trycloud.tests.tasks;
 
-import com.trycloud.tests.pages.cybertek.BaseCybertekPage;
-import com.trycloud.tests.pages.cybertek.CybertekAddRemoveElementsPage;
-import com.trycloud.tests.pages.cybertek.CybertekPageForgetPassword;
-import com.trycloud.tests.pages.cybertek.CybertekHomePage;
+import com.trycloud.tests.pages.cybertek.*;
 import com.trycloud.utilities.Driver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -12,7 +9,7 @@ public class CybertekTest extends BaseCybertekPage {
     CybertekHomePage cybertek = new CybertekHomePage();
     CybertekPageForgetPassword forget = new CybertekPageForgetPassword();
     CybertekAddRemoveElementsPage addRemove=new CybertekAddRemoveElementsPage();
-
+    MultipleWindowsPage multipleWindowsPage=new MultipleWindowsPage();
     @Test(description = "TC #1: PracticeCybertek.com_ForgotPassword WebElement verification\n" +
             "1. Open Chrome browser\n" +
             "2. Go to http://practice.cybertekschool.com/forgot_password\n" +
@@ -73,8 +70,14 @@ public class CybertekTest extends BaseCybertekPage {
 
 
     }
+    @Test
+    public void switchWindowsTest(){
+        System.out.println(Driver.getDriver().getTitle());
+        cybertek.clickMultipleWindows();
+        System.out.println(Driver.getDriver().getTitle());
+        multipleWindowsPage.clickHere();
 
-
-
+        System.out.println(Driver.getDriver().getTitle());
+    }
 }
 

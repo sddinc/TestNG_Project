@@ -5,16 +5,28 @@ import org.openqa.selenium.support.FindBy;
 
 public class CybertekHomePage extends BaseCybertekPage {
 
-@FindBy(xpath = "//a[.='Forgot Password']")
+    @FindBy(xpath = "//a[.='Forgot Password']")
     private WebElement forgetPasswordLink;
-    public  void clickForgetPassword(){
+
+    public void clickForgetPassword() {
         forgetPasswordLink.click();
     }
 
     @FindBy(xpath = "//a[.='Add/Remove Elements']")
     private WebElement addRemoveLink;
-    public  void clickAddRemoveLink(){
+
+    public void clickAddRemoveLink() {
         addRemoveLink.click();
     }
+
+    @FindBy(xpath = "//a[.='Multiple Windows']")
+    private WebElement multipleWindowsLink;
+
+    public void clickMultipleWindows() {
+        multipleWindowsLink.click();
+
+    }
+
+
 
 }
