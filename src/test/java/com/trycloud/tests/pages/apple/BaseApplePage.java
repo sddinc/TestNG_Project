@@ -12,61 +12,116 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
+import java.util.LinkedList;
 import java.util.List;
 
 public abstract class BaseApplePage {
     public BaseApplePage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
-    public WebDriverWait wait=new WebDriverWait(Driver.getDriver(),10);
 
+    public WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 10);
+
+    @FindBy(xpath = "//a[contains(@class,'ac-gn-link ac-gn-link')]")
+    public List<WebElement> headersLink;
 
     @BeforeClass
     public void setUp() {
         Driver.getDriver().get(ConfigurationReader.getProperty("urlApple"));
-       // Dimension d = new Dimension(480, 620);
+        // Dimension d = new Dimension(480, 620);
         Driver.getDriver().manage().window().maximize();
 
     }
 
     public void navigator(String module) {
         String xpath = "(//span[.='" + module + "'])[1]/..";
-       wait.until(ExpectedConditions.visibilityOf(Driver.getDriver().findElement(By.xpath(xpath)))).click();
+        wait.until(ExpectedConditions.visibilityOf(Driver.getDriver().findElement(By.xpath(xpath)))).click();
     }
+
     @FindBy(xpath = "//a")
     private List<WebElement> allLinks;
 
-    public void printAllLinks(){
+    public void printAllLinks() {
 
         navigator("iPhone");
-        for (int i = 0; i <allLinks.size() ; i++) {
+        for (int i = 0; i < allLinks.size(); i++) {
             System.out.println(allLinks.get(i).getText());
         }
-
     }
-    public void sizeOfMissingLink(){
+
+    public void sizeOfMissingLink() {
         navigator("iPhone");
-        int count=0;
-        for (int i = 0; i <allLinks.size() ; i++) {
-           if(allLinks.get(i).getText().isEmpty());
-           count++;
+        int count = 0;
+        for (int i = 0; i < allLinks.size(); i++) {
+            if (allLinks.get(i).getText().isEmpty()) {
+                count++;
+            }
         }
         System.out.println("Count of missing link:  " + count);
     }
 
-     public void sizeOfTextLink() {
-         navigator("iPhone");
-         int count = 0;
-         for (int i = 0; i < allLinks.size(); i++) {
-             if (!allLinks.get(i).getText().isEmpty()) {
-                 count++;
-             }
-             }
-             System.out.println("Count of  link that has a text :  " + count);
-         }
+    public void sizeOfMissingLink(String module) {
+        navigator(module);
+        int count = 0;
+        for (int i = 0; i < allLinks.size(); i++) {
+            if (allLinks.get(i).getText().isEmpty()) {
+                count++;
+            }
+        }
+        System.out.println("Count of missing link:  " + count);
+    }
+
+    public void sizeOfTextLink() {
+        navigator("iPhone");
+        int count = 0;
+        for (int i = 0; i < allLinks.size(); i++) {
+            if (!allLinks.get(i).getText().isEmpty()) {
+                count++;
+            }
+        }
+        System.out.println("Count of  link that has a text :  " + count);
+    }
+
+    public void sizeOfTextLink(String module) {
+        navigator(module);
+        int count = 0;
+        for (int i = 0; i < allLinks.size(); i++) {
+            if (!allLinks.get(i).getText().isEmpty()) {
+                count++;
+            }
+        }
+        System.out.println("Count of  link that has a text :  " + count + " in " + module);
+    }
+
+    public void sizeOfAllLinks() {
+        System.out.println("size of all link :" + allLinks.size());
+    }
+
+    public List<String> allHeaders() {
+        List<String> headers = new LinkedList<>();
+        for (int i = 1; i < headersLink.size() - 4; i++) {
+            headers.add(headersLink.get(i + 2).getText());
+        }
+        return headers;
+    }
 
 
+    public void windowsHandle() throws InterruptedException {
 
+
+        for (int i = 0; i < allHeaders().size(); i++) {
+            Thread.sleep(5000);
+            String module= allHeaders().get(i);
+            System.out.println("Test Of "+module+" Page ");
+            sizeOfTextLink(module);
+            sizeOfMissingLink(module);
+            sizeOfAllLinks();
+
+
+        }
+
+
+    }
 
 
 //
