@@ -1,4 +1,4 @@
-package com.trycloud.tests.tasks;
+package com.trycloud.tests.tasks.cybertek;
 
 import com.trycloud.tests.pages.cybertek.*;
 import com.trycloud.utilities.Driver;
@@ -71,6 +71,7 @@ public class CybertekTest extends BaseCybertekPage {
 
     }
     @Test
+
     public void switchWindowsTest(){
         System.out.println(Driver.getDriver().getTitle());
         cybertek.clickMultipleWindows();

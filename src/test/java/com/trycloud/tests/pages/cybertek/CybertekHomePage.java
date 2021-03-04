@@ -27,6 +27,14 @@ public class CybertekHomePage extends BaseCybertekPage {
 
     }
 
+    @FindBy(xpath = "//a[.='Checkboxes']")
+    private WebElement checkBoxesLink;
+
+
+    public void clickCheckboxes() {
+        checkBoxesLink.click();
+
+    }
 
 
 }
