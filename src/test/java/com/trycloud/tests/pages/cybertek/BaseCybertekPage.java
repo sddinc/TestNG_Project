@@ -6,18 +6,17 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.*;
 
 public abstract class BaseCybertekPage {
     public BaseCybertekPage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    public WebDriverWait wait=new WebDriverWait(Driver.getDriver(),10);
+    public WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 10);
 
-    @BeforeClass
-    public static void setUp(){
+    @BeforeTest
+    public static void setUp() {
         Driver.getDriver().get(ConfigurationReader.getProperty("urlCybertek"));
     }
 
@@ -28,8 +27,10 @@ public abstract class BaseCybertekPage {
         return homeLink.isDisplayed();
     }
 
-
-
+    @AfterTest
+    public void tearDown() {
+        Driver.closeDriver();
+    }
 
 
 
