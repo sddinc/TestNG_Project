@@ -1,5 +1,7 @@
 package com.trycloud.tests.pages.cybertek;
 
+import com.trycloud.utilities.Driver;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
@@ -64,6 +66,23 @@ public class DropDownPage extends BaseCybertekPage {
         select = new Select(monthDropDown);
         return select.getFirstSelectedOption().getText();
     }
+    @FindBy(id = "dropdownMenuLink")
+    private WebElement dropdownMenuLink;
+
+    public void clickDropdownMenuLink(){
+        dropdownMenuLink.click();
+    }
+
+
+    public void selectWeb(String website){
+        String xpath="//a[.='"+website+"']";
+        Driver.getDriver().findElement(By.xpath(xpath)).click();
+    }
+
+    public String getWebSiteTitle(){
+        return Driver.getDriver().getTitle();
+    }
+
 
 
 
