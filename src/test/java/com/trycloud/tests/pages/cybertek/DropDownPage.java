@@ -7,7 +7,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 
 public class DropDownPage extends BaseCybertekPage {
-    Select select;
     @FindBy(id = "dropdown")
     private WebElement simpleDropDown;
 

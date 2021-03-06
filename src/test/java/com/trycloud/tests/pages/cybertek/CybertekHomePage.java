@@ -39,8 +39,15 @@ public class CybertekHomePage extends BaseCybertekPage {
     @FindBy(xpath = "//a[.='Dropdown']")
     private WebElement dropDownLink;
 
-    public void clickDropDown(){
+    public void clickDropDown() {
         dropDownLink.click();
+    }
+
+    @FindBy(xpath = "//a[.='Registration Form']")
+    private WebElement registrationLink;
+
+    public void clickRegistrationLink() {
+        registrationLink.click();
     }
 
 
