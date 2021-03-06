@@ -49,6 +49,12 @@ public class CybertekHomePage extends BaseCybertekPage {
     public void clickRegistrationLink() {
         registrationLink.click();
     }
+    @FindBy(xpath = "//a[.='Frames']")
+    private WebElement frameLink;
+
+    public void clickFrame(){
+        frameLink.click();
+    }
 
 
 }

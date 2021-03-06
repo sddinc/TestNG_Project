@@ -1,14 +1,25 @@
 package com.trycloud.tests.tasks.cybertek;
 
+import com.github.javafaker.DateAndTime;
 import com.trycloud.tests.pages.cybertek.BaseCybertekPage;
 import com.trycloud.tests.pages.cybertek.CybertekHomePage;
 import com.trycloud.tests.pages.cybertek.DropDownPage;
+import javafx.scene.input.DataFormat;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.Arrays;
+import java.util.Date;
+import java.util.LinkedList;
+import java.util.List;
 
-public class Dropdown extends BaseCybertekPage {
+
+public class DropdownTest extends BaseCybertekPage {
     CybertekHomePage cybertek = new CybertekHomePage();
     DropDownPage dropdown = new DropDownPage();
 
@@ -73,14 +84,27 @@ public class Dropdown extends BaseCybertekPage {
             "4. Select Facebook from dropdown\n" +
             "5. Verify title is “Facebook - Log In or Sign Up”")
     public void websiteDropDownVerification() {
-        dropdown.clickDropdownMenuLink();
+
         String website = "Facebook";
         dropdown.selectWeb(website);
 
         Assert.assertEquals(dropdown.getWebSiteTitle(), "Facebook – log in or sign up");
 
-
     }
 
-
+    @Test(description = "TC#7: Cybertek “month” dropdown default value\n" +
+            "1. Open browser\n" +
+            "2. Go to website: http://practice.cybertekschool.com/dropdowns\n" +
+            "3. Verify default value is always showing the current month\n" +
+            "o Expected: If currently in June, should show June selected.\n")
+    public void defaultMonthDropDownVerification() {
+        LocalDate localDate = LocalDate.now();
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("MMMM");
+        String month = localDate.format(dtf);
+        Assert.assertEquals(dropdown.defaultValueOfMonth(), month);
+        List<String> expectedAllMonthOfYear = new LinkedList<>(Arrays.asList("January", "February", "March", "April", "May", "June", "July",
+                "August", "September", "October", "November", "December"));
+        System.out.println(dropdown.allMonthOfYear());
+        Assert.assertEquals(dropdown.allMonthOfYear(), expectedAllMonthOfYear);
+    }
 }
