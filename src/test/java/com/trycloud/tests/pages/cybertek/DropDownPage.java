@@ -6,6 +6,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 
+import java.util.LinkedList;
+import java.util.List;
+
 public class DropDownPage extends BaseCybertekPage {
     @FindBy(id = "dropdown")
     private WebElement simpleDropDown;
@@ -37,7 +40,7 @@ public class DropDownPage extends BaseCybertekPage {
         select.selectByVisibleText(year);
     }
 
-    public String selectedValueOfYear(){
+    public String selectedValueOfYear() {
         select = new Select(yearDropDown);
         return select.getFirstSelectedOption().getText();
     }
@@ -49,7 +52,8 @@ public class DropDownPage extends BaseCybertekPage {
         select = new Select(dayDropDown);
         select.selectByIndex(day);
     }
-    public int selectedValueOfDay(){
+
+    public int selectedValueOfDay() {
         select = new Select(dayDropDown);
         return Integer.parseInt(select.getFirstSelectedOption().getText());
     }
@@ -61,28 +65,42 @@ public class DropDownPage extends BaseCybertekPage {
         select = new Select(monthDropDown);
         select.selectByValue(month);
     }
-    public String selectedValueOfMonth(){
+
+    public String selectedValueOfMonth() {
         select = new Select(monthDropDown);
         return select.getFirstSelectedOption().getText();
     }
+
     @FindBy(id = "dropdownMenuLink")
     private WebElement dropdownMenuLink;
 
-    public void clickDropdownMenuLink(){
+    public void clickDropdownMenuLink() {
         dropdownMenuLink.click();
     }
 
 
-    public void selectWeb(String website){
-        String xpath="//a[.='"+website+"']";
+    public void selectWeb(String website) {
+        String xpath = "//a[.='" + website + "']";
         Driver.getDriver().findElement(By.xpath(xpath)).click();
     }
 
-    public String getWebSiteTitle(){
+    public String getWebSiteTitle() {
         return Driver.getDriver().getTitle();
     }
 
+    public String defaultValueOfMonth() {
+        select = new Select(monthDropDown);
+        return select.getFirstSelectedOption().getText();
+    }
 
+    public List<String> allMonthOfYear() {
+        select = new Select(monthDropDown);
+        List<String> allMonth = new LinkedList<>();
+        for (int i = 0; i < select.getOptions().size(); i++) {
+            allMonth.add(select.getOptions().get(i).getText());
+        }
+        return allMonth;
+    }
 
 
 }

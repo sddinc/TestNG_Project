@@ -19,7 +19,7 @@ public abstract class BaseCybertekPage {
 
     @BeforeTest
     public static void setUp() {
-        Driver.getDriver().get(ConfigurationReader.getProperty("urlCybertek"));
+        Driver.getDriver().get(ConfigurationReader.getProperty("urlHerokuApp"));
     }
 
     @FindBy(xpath = "//a[.='Home']")
