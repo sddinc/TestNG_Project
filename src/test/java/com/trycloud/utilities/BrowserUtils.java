@@ -403,6 +403,10 @@ public class BrowserUtils {
         return Driver.getDriver().getTitle();
     }
 
+    public static void switchIframe(String id){
+        Driver.getDriver().switchTo().frame(id);
+
+    }
 
 
 
