@@ -56,5 +56,14 @@ public class CybertekHomePage extends BaseCybertekPage {
         frameLink.click();
     }
 
+     @FindBy(xpath = "//a[.='Hovers']")
+    private WebElement hoverLink;
+
+    public void clickHovers(){
+        hoverLink.click();
+    }
+
+
+
 
 }

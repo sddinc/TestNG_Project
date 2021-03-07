@@ -17,9 +17,9 @@ public abstract class BaseCybertekPage {
     Select select;
     public WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 10);
 
-    @BeforeTest
-    public static void setUp() {
-        Driver.getDriver().get(ConfigurationReader.getProperty("urlHerokuApp"));
+    @BeforeClass
+    public void setUp() {
+        Driver.getDriver().get(ConfigurationReader.getProperty("urlCybertek"));
     }
 
     @FindBy(xpath = "//a[.='Home']")
