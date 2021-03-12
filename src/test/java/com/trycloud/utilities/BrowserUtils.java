@@ -399,6 +399,16 @@ public class BrowserUtils {
         new WebDriverWait(Driver.getDriver(), time).until(ExpectedConditions.presenceOfElementLocated(by));
     }
 
+    public String getWebTitle(){
+        return Driver.getDriver().getTitle();
+    }
+
+    public static void switchIframe(String id){
+        Driver.getDriver().switchTo().frame(id);
+
+    }
+
+
 
 
 }
