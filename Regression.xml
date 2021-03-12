@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Regression" >
+    <test name="TryCloud Home page " >
+        <packages>
+            <package name="com.trycloud.tests.tasks.cybertek" />
+        </packages>
+    </test>
+    <test name="Apple heater ">
+        <classes>
+            <class name="com.trycloud.tests.tasks.AppleTest"/>
+        </classes>
+    </test>
+</suite>

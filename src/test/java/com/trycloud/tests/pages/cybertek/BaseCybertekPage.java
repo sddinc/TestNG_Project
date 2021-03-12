@@ -17,6 +17,7 @@ public abstract class BaseCybertekPage {
     Select select;
     public WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 10);
 
+
     @BeforeClass
     public void setUp() {
         Driver.getDriver().get(ConfigurationReader.getProperty("urlCybertek"));

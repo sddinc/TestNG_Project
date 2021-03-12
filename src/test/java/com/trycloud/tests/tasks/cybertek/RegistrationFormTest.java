@@ -41,7 +41,7 @@ public class RegistrationFormTest extends BaseCybertekPage {
         System.out.println(userName);
         write.sendText("email",faker.internet().emailAddress());
         write.sendText("password",faker.internet().password());
-        write.sendText("phone",faker.phoneNumber().phoneNumber());
+        write.sendText("phone","571-123-5858");
 
         write.chooseGender(faker.demographic().sex().toLowerCase());
 

@@ -63,6 +63,13 @@ public class CybertekHomePage extends BaseCybertekPage {
         hoverLink.click();
     }
 
+    @FindBy(xpath = "//a[.='Dynamic Loading']")
+    private WebElement dynamicLoadingLink;
+
+    public void clickHDynamicLoading() {
+        dynamicLoadingLink.click();
+    }
+
 
 
 
