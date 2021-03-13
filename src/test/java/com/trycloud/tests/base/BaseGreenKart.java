@@ -54,6 +54,14 @@ public abstract class BaseGreenKart {
         checkoutButton.click();
     }
 
+    @FindBy(xpath = "//a[.='Top Deals']")
+    private WebElement topDealsLink;
+
+    public void clickTopDeal(){
+        topDealsLink.click();
+    }
+
+
     
 
 

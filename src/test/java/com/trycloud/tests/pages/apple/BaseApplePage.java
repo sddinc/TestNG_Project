@@ -4,6 +4,7 @@ import com.trycloud.utilities.ConfigurationReader;
 import com.trycloud.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -14,6 +15,7 @@ import org.testng.annotations.BeforeClass;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Set;
 
 public abstract class BaseApplePage {
     public BaseApplePage() {
@@ -24,6 +26,9 @@ public abstract class BaseApplePage {
 
     @FindBy(xpath = "//a[contains(@class,'ac-gn-link ac-gn-link')]")
     public List<WebElement> headersLink;
+
+    @FindBy(xpath = "//ul[@class='ac-gn-list']")
+    private List<WebElement> allHeadersLinks;
 
     @BeforeClass
     public void setUp() {
@@ -111,17 +116,30 @@ public abstract class BaseApplePage {
 
         for (int i = 0; i < allHeaders().size(); i++) {
             Thread.sleep(5000);
-            String module= allHeaders().get(i);
-            System.out.println("Test Of "+module+" Page ");
+            String module = allHeaders().get(i);
+            System.out.println("Test Of " + module + " Page ");
             sizeOfTextLink(module);
             sizeOfMissingLink(module);
             sizeOfAllLinks();
 
 
         }
-
-
     }
+
+    public void windowsHandleWithSeparateTap() {
+        for (int i = 0; i < allHeadersLinks.size(); i++) {
+//            String clickTap = Keys.chord(Keys.COMMAND, Keys.ENTER);
+//            allHeadersLinks.get(i).sendKeys(clickTap);
+            allHeadersLinks.get(i).click();
+        }
+        Set<String>allWindows=Driver.getDriver().getWindowHandles();
+        System.out.println(allWindows.size());
+    }
+
+    public void printAllLink() {
+        allHeadersLinks.stream().forEach(p -> System.out.println(p.getText()));
+    }
+}
 
 
 //
@@ -131,4 +149,4 @@ public abstract class BaseApplePage {
 //    }
 
 
-}
+

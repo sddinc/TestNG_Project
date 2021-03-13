@@ -24,7 +24,8 @@ public class GreenKartTest extends BaseGreenKart {
         Assert.assertEquals(cart.getCodeAppliedText(),"Code applied ..!");
 
         System.out.println("end");
-
-
     }
+
+
+
 }

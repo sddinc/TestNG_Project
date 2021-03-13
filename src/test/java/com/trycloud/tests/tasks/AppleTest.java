@@ -46,9 +46,11 @@ public class AppleTest extends BaseApplePage {
             "7. Print out how many link has text TOTAL\n" +
             "8. Print out how many total link TOTAL")
     public void appleWindowsHandle() throws InterruptedException {
-        windowsHandle();
+      //  windowsHandle();
 
+     //   windowsHandleWithSeparateTap();
 
+        printAllLink();
 
     }
 

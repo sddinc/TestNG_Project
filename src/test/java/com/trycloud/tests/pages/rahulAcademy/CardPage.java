@@ -28,5 +28,10 @@ public class CardPage extends BaseGreenKart {
         return   wait.until(ExpectedConditions.visibilityOf(codeAppliedText)).getText();
     }
 
+    @FindBy()
+    private WebElement topDealsLink;
+
+
+
 
 }
