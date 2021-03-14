@@ -24,7 +24,7 @@ public abstract class BaseGreenKart {
 
     @BeforeClass
     public void setUp(){
-        Driver.getDriver().get(ConfigurationReader.getProperty("urlRahulsAcad"));
+        Driver.getDriver().get(ConfigurationReader.getProperty("urlGreenKart"));
         Driver.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
     }
@@ -53,6 +53,14 @@ public abstract class BaseGreenKart {
     public void clickProceedToCheckout(){
         checkoutButton.click();
     }
+
+    @FindBy(xpath = "//a[.='Top Deals']")
+    private WebElement topDealsLink;
+
+    public void clickTopDeal(){
+        topDealsLink.click();
+    }
+
 
     
 
