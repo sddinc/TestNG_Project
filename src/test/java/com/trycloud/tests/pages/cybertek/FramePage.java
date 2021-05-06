@@ -1,11 +1,12 @@
 package com.trycloud.tests.pages.cybertek;
 
+import com.trycloud.tests.base.BaseCybertekPage;
 import com.trycloud.utilities.Driver;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class FramePage extends BaseCybertekPage{
+public class FramePage extends BaseCybertekPage {
     @FindBy(xpath = "//a[.='iFrame']")
     private WebElement iframeLink;
 

@@ -1,0 +1,4 @@
+  ● I integrated Jenkins with slack. To do this,
+  you just need to download the slack plugin
+  --> in settings provide slack api key and workspace info
+  --> then we need to select slack plugin as post build action.

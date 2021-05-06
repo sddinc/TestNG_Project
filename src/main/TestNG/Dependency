@@ -1,0 +1,23 @@
+
+    We can do TestNG’s dependency
+    feature using “dependsOnMethods”
+
+     ● DependsOnMethods = “test method name” You Can add multiple test names
+         ● If the first one fails, the 2nd test won't run at all
+         ● If the first method failed, your report will show that the 2nd test will be skipped
+         @Test(dependsOnMethods={“WebLogIn”})
+
+    @Test
+    public void stepOne() {
+     System.out.println("Executing stepOne");
+      }
+
+    @Test(dependsOnMethods = { "stepOne" })
+    public void stepTwo() {
+    System.out.println("Executing stepOne->stepTwo");
+    }
+
+    @Test(dependsOnMethods = { "stepOne", "stepTwo" })
+    public void stepThree() {
+    System.out.println("Executing stepOne->stepTwo->stepThree");
+    }

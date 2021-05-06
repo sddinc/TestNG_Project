@@ -1,0 +1,7 @@
+
+
+        ➔ Another way to validate response body
+        ➔ It is analternative to using XPath for easily getting the values from an object document.
+        ➔ used to navigate in a json document.Rest assured we can use the json path as an operating
+        object or as part of the body() method to extract values and verify.
+        ➔ JsonPathjasonPath=response.jsonpath();

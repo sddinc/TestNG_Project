@@ -1,0 +1,13 @@
+
+
+    ● FindElement():
+    This method returns the first
+    WebElement and gives Exception
+    if the element is not found.
+    It will return only ONE element.
+    ● FindElements():
+    This method returns L
+    ist <WebElement>
+    but does not give Exception
+    if the element(s) is not found
+    as a result list has null values.

@@ -1,0 +1,9 @@
+
+    ● It is very easy when
+    you reverse the word
+    and use the ".equals()” method.
+    ● word.equals(reversedWord) =
+    if this returns “true”
+    then it is a palindrome.
+    ● You can also use
+    the StringBuilder to reverse the word.

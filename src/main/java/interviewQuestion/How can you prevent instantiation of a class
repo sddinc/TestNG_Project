@@ -1,0 +1,8 @@
+
+    ● I can create the class
+    with a private constructor
+    or I can make the class abstract.
+    ● The best way is with
+    the private constructor since
+    I can create a subclass
+    of an abstract and instantiate it.

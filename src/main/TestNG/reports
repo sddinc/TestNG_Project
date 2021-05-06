@@ -1,0 +1,25 @@
+
+
+    TestNG library brings a very convenient reporting feature. Once we execute our tests,
+
+    Detailed Report
+    -You can find this report in the <index.html> file.
+    It combines the detailed information like the errors, test groups,
+    execution time, step-by-step logs and TestNG XML file.
+
+    Summary Report
+    - It is the trimmed version and informs about the no. of
+    “Passed”/”Failed”/”Skipped” cases. You can see it from
+    the <emailable-report.html> file. It’s an email friendly
+    report which you can embed and share with the stakeholders.
+
+    Listener - is defined as an interface that modifies the
+    default TestNG behavior. As the name suggests Listeners
+     "listen" to the event defined in the selenium script
+      and behave accordingly. It is used in selenium by
+      implementing Listeners Interface. It allows customizing
+      TestNG reports or logs.
+    ExtendReports -
+    Extent Report is an HTML reporting library for
+    Selenium WebDriver for Java. It is a great tool
+    we can use within our automation framework to make excellent execution reports.

@@ -1,0 +1,7 @@
+
+1) Checked Exception is required to be handled by compile time while
+Unchecked Exception doesn't.
+2) Checked Exception is direct sub-Class of Exception
+while Unchecked Exception are of RuntimeException.
+3) CheckedException represent scenario with higher
+failure rate while UnCheckedException are mostly programming mistakes.

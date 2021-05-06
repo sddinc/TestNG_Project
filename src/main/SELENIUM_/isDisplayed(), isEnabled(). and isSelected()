@@ -1,0 +1,20 @@
+
+
+   ● isDisplayed():
+
+   It checks for the presence
+   of all kinds of web elements available
+   if found = true if not found = false
+   ● isEnabled():
+   verifies if the web element
+    is enabled or disabled
+    within the web page.
+    It is primarily used with buttons.
+   ● isSelected():
+   verifies if the
+   web element is selected or not.
+    It is used with radio buttons,
+    dropdowns and checkboxes.
+
+
+

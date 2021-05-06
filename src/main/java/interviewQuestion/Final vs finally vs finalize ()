@@ -1,0 +1,23 @@
+
+    Final: it is a keyword
+    and use on class,
+    method, and variable.
+    ○ Final Class = can’t be inherited
+    ○ Final Method = can’t be overridden
+    ○ Final Variable = can’t be changed
+
+     Finally:
+     it is used for exception
+     handling with
+     try and catch block.
+    ○ It is executed
+    every time even
+    if an exception
+    happens or not.
+
+    ○ In my project,
+    I never used it but
+    used try and catch block only.
+    Finalize ():
+    ○ Used by the garbage collector to perform some final operations
+    or clean up operations on an object before it is removed from the memory.

@@ -1,0 +1,16 @@
+
+
+    ● In my project, the test lead was review code.
+    But if there is no team lead/test lead then
+    we do peer review. Everyone's code must go through review.
+    But, the test lead can decide/choose the flow.
+    Every commit must be reviewed.
+    ● I would commit my changes, whenever
+    I completed automation of some user story.
+    Then I would add a commit message like:
+    "completed automation of VYT-4321 Driver should be able to add fuel logs".
+    It's not only about scripts, you can also add utilities,
+    fix something... The main idea is that we have to be careful with the master branch.
+    ● Protect master branch from direct commits and enforce pull requests with code review.
+     Code review will improve code quality.
+      Also, we will make sure that the master branch has 100% working code.

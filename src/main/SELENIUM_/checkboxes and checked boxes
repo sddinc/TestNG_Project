@@ -1,0 +1,12 @@
+
+    ● Find the common attribute
+    for all of the checkboxes.
+    ● Store all of the checkboxes
+    (each of them are separate objects) in one single list object
+    /element by using findElements().
+
+    ● Use .size() method in the findElements().size() method. // this is for the size
+    ● Create a for-loop and put count++ in it.
+    ● Use isSelected() method with an if statement and if it gives “true” it will increment the
+    value of count.
+    ● Print the count after the loop.

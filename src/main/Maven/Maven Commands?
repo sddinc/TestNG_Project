@@ -1,0 +1,22 @@
+    ❖ mvn clean:
+    Clears the target directory
+    into which Maven normally builds your project.
+    It is recommended to run clean previously built executions.
+    C:\users\adurhan\Mavenjava>mvn clean
+
+    ❖ mvn compile:
+    Assume that you have hundreds of test cases,
+    it will be really difficult to find syntax errors out of hundreds of lines of codes.
+     The Compile command will NOT run the test but check the syntax errors.
+     Compiles the source code of the project.
+    C:\users\adurhan\Mavenjava>mvn compile
+
+    ❖ mvn test:
+    Runs the tests against the compiled
+    source code using a suitable unit testing framework.
+    These tests should not require the code be packaged or deployed.
+    When you run “test”, it will check for the local
+    JARS and if they are in the folder,
+     it will run the test BUT if it cannot find the JARS,
+     it will download the JARS from the repository of Maven.
+    C:\users\adurhan\Mavenjava>mvn test -Dcucumber.options="--tags @Smoke"

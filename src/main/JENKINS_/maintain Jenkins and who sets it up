@@ -1,0 +1,11 @@
+
+    ● In my company, we have the DevOps team
+    which is in charge of setting and maintaining Jenkins for deployments.
+    ● DevOps work with developers to create
+    jobs for building and deploying the application.
+    ● For regression and smoke tests, they work with
+    the automation testers who provide the information of the tests,
+    configuration info, and also the emails for the notifications.
+    ○ Git path
+    ○ Mvn code; goals - compile, or verify -Drunner=xml, etc.
+    ○ Times to schedule certain tests

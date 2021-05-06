@@ -1,0 +1,6 @@
+
+
+-
+since Constructors are invoked only when the object is created,
+there is no sense to make the constructors static, because it is used for create an object.
+ However, if we try to do so, the compiler will show the compiler error.

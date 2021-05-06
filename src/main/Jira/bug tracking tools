@@ -1,0 +1,12 @@
+    ● JIRA treats all work inside
+     it as an Issue
+    ● So, in JIRA to create a defect would be to create an issue of the type “Bug”.
+
+    ● Defect reporting :
+        ○ Defect ID
+        ○ Defect title
+        ○ Defect description (steps to reproduce)
+        Environment information
+        Screenshot(attachment)
+        Severity
+        Assign it to Developer

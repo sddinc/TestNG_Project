@@ -1,0 +1,12 @@
+
+    ○ By providing only the setter or getter method,
+     we can make the class read-only or write- only.
+     In other words, we can skip the getter or setter methods.
+    ○ It is a way to achieve data hiding in
+        Java because other class will not be able
+        to access the data through the private data members.
+    ○ The encapsulate class is easy to test.
+      So, it is better for unit testing.
+    ○ The standard IDE's are providing the
+      facility to generate the getters and setters.
+      So, it is easy and fast to create an encapsulated class in Java.

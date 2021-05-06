@@ -1,0 +1,7 @@
+
+
+    ● Selenium does not have a
+    built-in integration with Jira.
+    ● But there are plugins
+    that integrate selenium testing framework with Jira.
+    ○ Xray (Jira plugin, Jenkins plugin)

@@ -1,0 +1,12 @@
+
+
+  Static
+    Uses keyword static
+    - Can be called by the class name
+    so an object does not need to be created
+    - Static method does not accept instances
+
+  Instance
+    No extra keywords
+    Can be used in other static context: methods, blocks, etc..
+    All static and non-static fields can be used in the instance methods.

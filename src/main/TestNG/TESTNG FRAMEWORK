@@ -1,0 +1,25 @@
+
+
+    ❖ TestNG is a testing framework
+    inspired from JUnit but introducing
+    new functionalities that make
+    it more powerful and easier to use.
+    TestNG helps you to generate test reports as well.
+    ❖ TestNG can act as your
+     Java compiler, you don’t have
+     to include the main method since
+     TestNG can run your test codes.
+    ❖ Thanks to annotations in TestNG,
+    you can group your test cases using the xml file.
+    ❖ TestNG has a builtin html report.
+    ❖ TestNG can pass parameters from the xml file.
+
+    ● Types of test automation framework:
+        ○ data driven framework: test and data different,
+        execute same test with different input
+        ○ keyword driven framework: in excel we have the test steps and also the test data.
+        ○ behaviour driven framework with cucumber
+        ○ component based framework: tests are organized in packages based on
+        component/module
+        ○ page object model based framework uses page object model
+        ○ hybrid driven framework uses 2 or more of the types above

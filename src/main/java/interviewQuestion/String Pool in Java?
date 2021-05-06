@@ -1,0 +1,34 @@
+
+
+    String poolis a special place to
+    store all Strings in the
+    Java Heap Memory.
+
+    It is used to save memory.
+    When we create a new String
+    with double quote “”,
+    Java looks into the
+    String Pool first to check
+    if that Sting (text) already
+     exists in the pool or not.
+    If it does, Java creates another
+    reference for the same existing
+    String in the pool but
+    if it does not exist,
+    it creates a new String
+    in the pool.
+    This helps to save memory
+     by avoiding duplication.
+
+
+
+
+
+
+
+
+
+
+
+
+    23

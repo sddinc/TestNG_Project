@@ -1,0 +1,8 @@
+
+    Pipeline is a set of processes that take
+    the code from version control and compile,
+    build, test and deploy to production in automated fashion.
+
+    The pipeline breaks down the software delivery process into stages.
+    Each stage is made of different tasks which can be carried out in parallel.
+    When all tasks in a stage passes, the next stage is triggered.

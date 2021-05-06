@@ -1,0 +1,23 @@
+
+    ● Find the static part of the id
+    and write a locator (xpath or css)
+    and then use startswith, contains, endswith
+    ○ contains():
+    ○ startwith()
+    ○ text() :
+    ○ or & and :
+
+    ● Using parent, child, sibling relationship
+    starting from the stable/static element.
+
+    ● I have utility methods that work with tables.
+    I have a method that takes
+    a table webelement and
+    returns all the column names.
+     I have a method that takes a table,
+     number and returns all the data in that row.
+
+     ○ contains( ) :     //*[contains(@name=`btn`)]
+     ○ startwith( ) :    //label[startswith(@id, `message`)]
+     ○ text( ) :        //td[text() = `usedId`]
+     ○ or & and :        //input[@type = `submit` AND @name = `login`]

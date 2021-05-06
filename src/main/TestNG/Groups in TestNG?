@@ -1,0 +1,26 @@
+
+
+    ● These groups are called
+    meta groups.
+
+    ● Example: you may want to
+    define a group all that
+    includes regression and smoke.
+    Put the tags on the
+    @Test methods and create
+    a new .xml file for these
+    tests so you can define the suite accordingly.
+
+    ● When we use groups option,
+    we need to add (alwaysRun=true)
+    to @BeforeMethod and @AfterMethod: @BeforeMethod (alwaysRun=true).
+
+     @Test(groups="regression")
+     public void invalidPasswordLogin() {
+        sendText( login. username, ConfigsReader.getProperty("username"));
+        sendText( login. password, "uiuguig");
+        click( login. loginBtn);
+     String expected = "Invalid credentials";
+     Assert.assertEquals( login.errorMsg.getText(), expected,
+     "Error message text is not matched");
+

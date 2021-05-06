@@ -1,0 +1,8 @@
+
+
+    I was not responsible for any configuration,
+    the DevOps team did take care of it.
+    1. Download xray plugin for Jenkins. You will need to download this plugin from Xray website
+    2. Install plugin
+    3. Provide jira information in jenkins settings
+    4. Add jira xray into the jenkins job as post build action

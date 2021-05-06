@@ -1,0 +1,6 @@
+
+    ● The static block is a code block that
+    allows only static members.
+    ● This block is always executed once and before anything else.
+      this block execution does not depend
+      on object creation but the class calling

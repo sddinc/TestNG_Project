@@ -1,0 +1,4 @@
+
+    After object creation, the object cannot be changed.
+    In Java, String is immutable, i.e., once string object has been created,
+    its value can't be changed, If the object needs to be changed, a new object must be made.

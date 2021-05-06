@@ -1,0 +1,19 @@
+
+
+      for UI Automation  We just
+      need to find the elements
+      and perform automations on it.
+      But in time, there
+      will be many webElements and
+      more lines of code in the test suite.
+      The script maintenance will be a very big problem.
+      If there are 50 scripts
+      for the same element,
+      with any change in that element,
+      we will need to change
+      all 50 scripts. This will be time consuming and error prone.
+      A better approach is to create a seperate class which would find the webElements,
+      fill or verify them. The class can be reused in all the scripts using that element.
+
+      If there is a change in the element,
+      we would change in the class where we keep the element, not in all to 50 different scripts.

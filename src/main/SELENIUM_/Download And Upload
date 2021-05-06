@@ -1,0 +1,18 @@
+● Download:
+    ○ Selenium itself cannot
+    verify file downloads,
+    can click on download
+    link but can't go outside
+    the browser and open the downloaded file
+    ○ Other tools need to be used for that Robot and AutoIT
+
+● Upload:
+  ● First, locate the element
+       which takes the path of
+       the file we want to upload.
+       It is usually “Choose File” button
+      WebElement input = driver.findElement(“id”);
+      ● Second, provide the
+       path to the file using
+       the sendKeys method:
+      input.sendKeys(“/path/to/file/here”);

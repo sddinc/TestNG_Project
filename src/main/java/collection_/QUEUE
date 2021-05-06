@@ -1,0 +1,4 @@
+
+  A Queue is designed in such a way so that the elements
+  added to it are placed at the end of Queue and removed from the beginning of Queue.
+  FIFO (First In First Out). .poll(0 method

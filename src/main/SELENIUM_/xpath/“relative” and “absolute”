@@ -1,0 +1,19 @@
+
+    Absolute XPath:
+    ● using (/) single slash showing
+    the root element and goes
+    all the way to the element we’re locating.
+    ● If there are any changes
+    in the path of the
+    element then the XPath will fail.
+    ● Not suggested to use
+    as the developers
+    may change the path.
+
+    Relative Path:
+    ● The path starts from
+    the middle of the HTML
+    DOM structure with double slash (//).
+    ● Starts with // which means
+     it searches the element anywhere at the webpage.
+    ● No need to write a long XPath. More preferred!

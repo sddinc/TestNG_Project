@@ -1,0 +1,13 @@
+
+    ● Iterator works with
+    ArrayList, not with Array.
+    It helps us to iterate through the elements.
+
+    ● With an iterator you can make
+    changes (remove item) to
+    the list while iterating.
+
+    ● With for-each loops, we can
+    only iterate through lists
+    but cannot make any changes to our
+    lists.

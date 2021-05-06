@@ -1,4 +1,4 @@
-package com.trycloud.tests.pages.cybertek;
+package com.trycloud.tests.base;
 
 import com.trycloud.utilities.ConfigurationReader;
 import com.trycloud.utilities.Driver;
@@ -14,7 +14,7 @@ public abstract class BaseCybertekPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    Select select;
+    public Select select;
     public WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 10);
 
 

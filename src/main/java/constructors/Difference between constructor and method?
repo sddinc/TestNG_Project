@@ -1,0 +1,62 @@
+
+
+    Constructor
+    It is a special method
+    which creates an object.
+
+    It needs to match
+    with the class name
+
+    The constructor
+    is invoked implicitly
+    whenever we
+    create an object
+
+    The Java compiler
+    provides a default
+    constructor if
+    we don't have any
+    constructor in a class.
+
+
+    Constructor are not
+    inherited by child class
+    if there is an inheritance
+
+    Method
+    A method is used
+    to expose the behavior
+    of an object.
+    A method must
+    have a return type.
+
+    The method is
+    invoked explicitly.
+
+    The method is not
+    provided by the
+    compiler in any case.
+
+    The method name
+    may or may not
+    be same as class name.
+    Methods are inherited
+    by child class
+    if there is a inheritance
+
+
+
+
+
+    vvv
+
+    vv
+
+    vvv
+    vv
+
+
+
+
+
+    v

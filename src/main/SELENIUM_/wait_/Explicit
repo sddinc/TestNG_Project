@@ -1,0 +1,20 @@
+
+
+    ○ Wait time is applied
+    ONLY specified  element
+    ○ We need to specify
+     the “ExpectedCondition”
+     on the element to be located.
+    ○ It is recommended
+     to use when the elements
+     are taking a long time to load and also
+
+    verifying the property
+    of the element like
+    visibilityOfElement,
+    elementToBeClickable,
+     elementToBeSelected, etc.
+
+
+    webDriverWait wait = new WebDriverWait (driver, 5);
+    wait.until (ExpectedConditions.visibilityOf(element);

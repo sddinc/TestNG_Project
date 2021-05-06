@@ -1,0 +1,40 @@
+
+    JUnit: @Test, @BeforeClass, @AfterClass, @Before, @After, @Ignore
+
+
+    TestNG: @Test, @BeforeTest, @BeforeClass, @BeforeSuite,
+    @BeforeMethod, @AfterTest, @AfterClass, @AfterSuite,
+    @AfterMethod
+
+    Both are testing frameworks
+    to help us to run automation scripts.
+
+    TestNG provide html report
+
+    Test prioritization,
+    Parallel testing is possible in TestNG.
+    It is not supported by JUnit.
+
+    TestNG has @Dataprovider
+    annotation same
+    as Cucumber Scenario
+    Outline for Data Driven Testing.
+
+    In TestNG, we can
+    do parallel testing,
+    but JUnit doesn't
+    support parallel testing,
+    so we use SeleniumGrid for it.
+
+    TestNG support
+    group test but
+    JUnit doesn't support
+
+    TestNG and JUnit
+    both of them have
+    parameterized testing
+    but TestNG parameterized
+    test configuration is very easy to configure.
+    There are two ways to achieve parameterization in TestNG;
+     @Parameters and TestNG xml file
+     @DataProvider

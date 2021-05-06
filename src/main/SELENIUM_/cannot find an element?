@@ -1,0 +1,8 @@
+
+    ● Locator might have
+    been changed by the developer.
+    ● It can be an iFrame
+    ● Waiting time:: page is
+    loading slowly or Element is dynamic:: locator
+    ● Page is not fully loaded/opened
+    ● Page changes and that element does not exist anymore

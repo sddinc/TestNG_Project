@@ -1,0 +1,14 @@
+
+
+   Yes I have done cross browser testing in
+   my framework using 3 browser initialization.
+   Chrome , IE and Firefox testing using Webdriver.
+   In our property file we store keys for
+   the browser and everytime we change
+   the value of the key execution will
+   be happening on different browsers.
+
+
+
+
+

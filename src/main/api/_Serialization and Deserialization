@@ -1,0 +1,7 @@
+Serialization:
+➔ Serialization in the context of Gson means mapping a Java object to its JSON representation.
+
+
+De-Serialization:
+➔ It is converting a json file into JavaObject.
+➔ Deserialization:APIJSON/XML→MAPittoJavaObject(JSONTOJAVAOBJECT)

@@ -1,0 +1,25 @@
+
+
+    ●Both of them must be
+    the first statement
+    in the constructor.
+    We need to pick one
+    or the other.
+     Useage:
+
+    ● super() will call
+    the super/parent class’
+    constructor..
+
+    ● super. will let us
+    access the parent/super class’
+    variables, members, methods, etc.
+
+    ● this() will call a
+    constructor from another
+    constructor within
+    the same class.
+
+    ● this. will access
+    instance variables
+    and methods.

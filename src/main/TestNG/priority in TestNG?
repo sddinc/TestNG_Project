@@ -1,0 +1,16 @@
+    We use priority attributes to the @Test annotations.
+    In case priority is
+    not set then the test scripts execute in alphabetical order.
+
+    @Test
+    public void firstTest() {
+    System.out.println("First Test");
+    }
+    @Test(priority = 1) // Assigning the Priority
+     public void secondTest() {
+    System.out.println("Second Test");
+     }
+
+
+
+     ● Doesn't matter what number you start Ex: @Test(priority=0)

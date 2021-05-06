@@ -1,0 +1,8 @@
+
+    driver.get() is to open an URL and
+     it will wait till the whole page gets loaded
+
+    ● driver.navigateTo() is to
+    navigate to an URL and it will not wait
+    till the whole page get
+loaded

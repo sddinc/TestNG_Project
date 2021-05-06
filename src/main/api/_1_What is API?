@@ -1,0 +1,6 @@
+
+    ➔ APIstandsforApplicationProgrammingInterface.
+    ➔ Itisasetofrulesthatallowprogramstotalktoeachother.ThedevelopercreatestheAPI
+    on the server and allows the client to talk to it.
+    ➔ APIlayerofanyapplicationisoneofthemostcrucialsoftwarecomponents.Itisthe
+    channel which connects the client to a server or one microservice to another.

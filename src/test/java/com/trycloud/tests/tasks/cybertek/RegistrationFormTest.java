@@ -1,7 +1,7 @@
 package com.trycloud.tests.tasks.cybertek;
 
 import com.github.javafaker.Faker;
-import com.trycloud.tests.pages.cybertek.BaseCybertekPage;
+import com.trycloud.tests.base.BaseCybertekPage;
 import com.trycloud.tests.pages.cybertek.CybertekHomePage;
 import com.trycloud.tests.pages.cybertek.RegistrationFormPage;
 import org.openqa.selenium.support.ui.Select;

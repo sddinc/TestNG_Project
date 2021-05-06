@@ -1,0 +1,9 @@
+
+
+
+   TestNG Asserts helps
+   us to verify  the test
+   has failed or passed.
+   A test is  successful
+   ONLY if it is completed
+    without throwing any exception.

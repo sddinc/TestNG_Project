@@ -1,0 +1,20 @@
+
+
+
+    Wait time is applied
+    to all elements in the scripts.
+    It is more global.
+
+    ○ We don’t specify
+     the expected condition
+     on the element to be located.
+
+    ○ It is recommended to use when the elements are located with the time frame
+    specified in the implicit wait.
+
+    ○ If the wait
+     time set for 10 seconds
+     but the element found in 3, the remaining 7
+    seconds are not waited in both implicit and explicit wait
+
+    driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);

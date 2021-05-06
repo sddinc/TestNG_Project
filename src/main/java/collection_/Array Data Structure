@@ -1,0 +1,47 @@
+
+ An array is a data structure
+ that holds a fixed
+ number of values of a single type
+ (both primitive and non-primitive(object)).
+
+  The length of an
+  array is established
+  when the array is created.
+  After creation,
+  its length is fixed.
+
+ ● Advantage of Java Array:
+  It makes the code optimized,
+  we can retrieve
+  or sort the data easily.
+
+  We can get any data located
+  at any index position.random
+
+ ● Disadvantage of Java Array: (disarrayis)
+ ○ Size Limit: It is not dynamic so it is not resizable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

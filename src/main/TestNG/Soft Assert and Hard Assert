@@ -1,0 +1,15 @@
+
+
+Hard Assertion:
+Hard assert throws an AssertException
+immediately when an assert statement fails,
+and test suite continues with next @Test.
+If Assert steps fails, execution of test stops at that point! and will go to next test if present!
+(Example: just simple Assert.assertTrue(boolean);)
+
+Soft Assertion:
+Soft assert collects errors during @Test.
+Soft Assert does not throw an exception
+when an assert fails and would continue
+with the next step after the assert statement.
+If Verify steps fails, it will report a fail but will continue execution!

@@ -1,0 +1,16 @@
+
+
+ A Page Object Model is a test design pattern
+ A Page Factory is one way of implementing Page Object Model which is inbuilt in selenium.
+
+In plain POM, you define locators using ‘By’
+while in Page Factory, you use @FindBy annotation to define page objects.
+
+Page Object Model is a design approach
+while PageFactory is a class which provides implementation of Page Object Model design approach.
+
+In the plain page object model, you need to
+initialize every page object individually otherwise you will
+encounter NullPointerException
+
+while In PageFactory all page objects are initialized (Lazily) by using initElements() method.

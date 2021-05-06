@@ -1,0 +1,6 @@
+
+
+● Class is a blueprint or template where we can create as many objects as we like.
+● Object is an instance of a class
+● Class is declared using class key word, Object is created through new keyword mainly.
+● We can either declare class with public or default access modifier

@@ -1,0 +1,44 @@
+Overloading: (Overloadingis)
+    ○ Method overloading occurs
+    within the class.
+    ○ Same method name but
+    different parameters.
+    ○ Return type can
+    be different.
+    ○ We can overload
+    static methods.
+    ○ Access modifiers
+    can be different.
+    ○ Final methods can
+    be overloaded
+    in the same class.
+
+    ○ In my project:
+    In the BrowserUtils, I have methods like:
+    public static WebElement waitForVisibility(WebElement element, int timeToWaitInSec)
+     { WebDriverWait wait = new WebDriverWait(Driver.get(), timeToWaitInSec);
+    return wait.until(ExpectedConditions.visibilityOf(element)); }
+  AND
+    public static WebElement waitForVisibility(By locator, int timeout) {
+    WebDriverWait wait = new WebDriverWait(Driver.get(), timeToWaitInSec);
+    return wait.until(ExpectedConditions.visibilityOf(element)); }
+
+●Overriding: (overridingis)
+    ○ Happens in the child class.
+    It is called dynamic binding.
+    ○ Same method name
+    and same parameters (same method signature).
+    ○ Must have the same
+    or sub return type.
+    ○ We cannot override
+    static methods,
+    we can only hide them.
+    ○ Access modifiers
+    can only be the same or more visible.
+    ○ Private methods cannot
+    be overridden since
+    they are not inherited.
+    ○ Final methods cannot
+    be overridden since they are final,
+    cannot be changed.
+    ○ In my project: I override .toString(), .equals(), and .hashCode() methods.

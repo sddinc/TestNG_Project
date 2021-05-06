@@ -1,0 +1,6 @@
+
+
+ The constructor can never be declared as final because it is never inherited.
+ Constructors are not ordinary methods;
+ therefore, there is no sense to declare constructors as final.
+  However, if you try to do so, the compiler will throw an error.

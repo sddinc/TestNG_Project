@@ -1,0 +1,20 @@
+
+    ● NoSuchElementException
+    I usually face this exception which
+    usually happens because
+    of synchronization issues,
+    incorrect locators,
+    or hidden elements in iFrame.
+
+    ● StaleElementException
+    It usually happens
+    when the element has
+    been deleted entirely
+    or no longer attached
+    to the DOM. This is how I handle it:
+    - Element is not attached to
+    DOM: ‘try catch block’ within ‘for loop’ or
+    - 1.Refresh the page and
+    try again for the same element.
+    2.Wait for the element till it gets available.
+    ● TimeOutException

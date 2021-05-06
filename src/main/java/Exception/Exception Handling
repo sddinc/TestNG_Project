@@ -1,0 +1,11 @@
+    ● Try & Catch Block: to handle the exception
+         try {
+    System.out.println(new int[] {1,2,3}[100]); // out of bound exception occurs here
+             } catch (Exception e){
+    System.out.println("Out of Bound Exception caught here");
+    }finally {
+    System.out.println("Finally will be executed here regardless of any exception occurs or not"); }
+
+    ● Throws keyword: to pass it to the caller’s responsibility to handle it.“throws” keyword
+    indicates that this method throws an exception. but this exception does not handle exception permanently
+    public static void method1 () throws Exception{ Thread.sleep(2000); }

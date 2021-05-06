@@ -1,6 +1,6 @@
 package com.trycloud.tests.tasks.cybertek;
 
-import com.trycloud.tests.pages.cybertek.BaseCybertekPage;
+import com.trycloud.tests.base.BaseCybertekPage;
 import com.trycloud.tests.pages.cybertek.CybertekHomePage;
 import com.trycloud.tests.pages.cybertek.FramePage;
 import org.testng.Assert;

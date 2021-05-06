@@ -1,8 +1,8 @@
 package com.trycloud.tests.pages.cybertek;
 
+import com.trycloud.tests.base.BaseCybertekPage;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.testng.annotations.Test;
 
 public class MultipleWindowsPage extends BaseCybertekPage {
 

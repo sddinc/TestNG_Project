@@ -1,0 +1,20 @@
+
+    ● Set, List and Map are
+    3 important interfaces
+     of Java collection framework.
+    ○ List provides ordered
+    and indexed
+    collection which
+    may contain duplication.
+
+    ○ Set provides an
+    unordered collection
+    of unique objects.
+    There is NO duplication.
+    Both List and Set
+    implement the collection interface.
+
+    ○ Map provides a
+    data structure based on Key - Value.
+     Key is always unique,
+     Value can contain duplicate values.

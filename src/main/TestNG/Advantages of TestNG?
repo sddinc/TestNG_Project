@@ -1,0 +1,9 @@
+
+    TestNG is designed to cover
+     all categories of tests:
+    unit, functional, end-to-end, integration, etc.
+
+    Managing test suites and test cases.
+    Grouping and Prioritizing tests.
+    Reporting.
+    Parallel execution.

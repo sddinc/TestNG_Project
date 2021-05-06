@@ -1,0 +1,62 @@
+
+    We can control
+    the mouse and the
+    keyboard
+    with action class.
+
+    Actions class provides methods  like:
+    -- Hover over
+    -- DoubleClick
+    -- Scroll
+    -- DragAndDrop
+    -- Right click... mix/match operators
+
+    Actions action = new Actions(driver)
+    action.click()
+    .hold()
+    .perform()
+    .moveToElement(element)
+    .keydown()build()
+    .dragAndDrop(source, target).perform() .sendKeys() different from the one we usually use
+
+    We can perform following operation using action class:
+    ● click (): Simply click on element
+    ● doubleClick (): Double clicks on Element
+    ● contextClick() : Perform a context-click (right click) on an element
+    ● clickAndHold(): Clicks at the present mouse location (without releasing)
+    dragAndDrop(source, target):
+
+
+
+
+  How to Drag and Drop?
+  We need to use Actions class
+  Actions action = new Actions(driver);
+     action.clickAndHold(driver.findElement(By.id("item"))) .moveToElement(driver.findElement(By.id("destination")))
+   .release().build().perform();
+
+
+   What is the syntax for double click action ?
+   we need to locate the element first:
+   WebElement el = driver.findELement
+
+   Actions actions = new Actions (driver);
+
+   actions.moveTo(el).doubleClick().build.perform();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

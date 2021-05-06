@@ -1,0 +1,12 @@
+
+
+    ● I work with the DevOps team to
+    create my smoke tests in Jenkins.
+    ● To run my tests, I need certain
+    plugins to be installed on Jenkins,
+    I also need java, maven
+    configured on jenkins, I also need browsers
+    installed on the server where the tests will run.
+    ● Since only DevOps team members have the right to do the configurations in Jenkin, I work
+    with them for certain setup or configuration.
+    ● Once the configuration of the Jenkins is completed, I can create and run the smoke test job

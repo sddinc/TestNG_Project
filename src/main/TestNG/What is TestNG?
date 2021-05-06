@@ -1,0 +1,11 @@
+
+    TestNG is a testing framework inspired from JUnit but
+    introducing new functionalities that make it more powerful and easier to use.
+
+    TestNG helps us to generate test reports as well.
+    TestNG can act as our Java compiler, we don’t have
+    to include the main method since
+    TestNG can run our test codes.
+    With annotations in TestNG, we can group our test cases using the xml file.
+    TestNG has a built in html report.
+    TestNG can pass parameters from the xml file.

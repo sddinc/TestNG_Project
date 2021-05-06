@@ -1,5 +1,6 @@
 package com.trycloud.tests.tasks.cybertek;
 
+import com.trycloud.tests.base.BaseCybertekPage;
 import com.trycloud.tests.pages.cybertek.*;
 import com.trycloud.utilities.Driver;
 import org.testng.Assert;

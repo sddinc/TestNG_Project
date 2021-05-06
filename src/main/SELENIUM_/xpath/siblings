@@ -1,0 +1,9 @@
+
+
+    How to get all the preceding siblings of Apple?
+    Xpath: "//ul/li[contains(text(), 'Apple Mobiles')]/preceding-sibling::li"
+
+
+    How to get all the following siblings of Apple?
+
+    Xpath: "//ul/li[contains(text(),'Apple Mobiles')]/following-sibling::li"

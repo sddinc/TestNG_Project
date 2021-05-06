@@ -1,0 +1,5 @@
+
+    ○ using square brackets with index position
+    For ex: div[2] will find the second div element
+    ○ using position ( ) method
+    For ex: div[position()=2] will find the second div element

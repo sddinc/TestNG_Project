@@ -1,8 +1,7 @@
 package com.trycloud.tests.tasks.cybertek;
 
-import com.trycloud.tests.pages.apple.BaseApplePage;
+import com.trycloud.tests.base.BaseCybertekPage;
 import com.trycloud.tests.pages.cybertek.*;
-import com.trycloud.utilities.BrowserUtils;
 import com.trycloud.utilities.Driver;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
@@ -16,7 +15,7 @@ public class WindowsHandling extends BaseCybertekPage {
     MultipleWindowsPage multipleWindowsPage = new MultipleWindowsPage();
     NewWindowPage newWindowPage=new NewWindowPage();
     WindowsPage windowsPage=new WindowsPage();
-    BrowserUtils utils=new BrowserUtils();
+
     @BeforeTest
     public void clickDropDown() {
         cybertek.clickMultipleWindows();
@@ -52,7 +51,7 @@ public class WindowsHandling extends BaseCybertekPage {
             "7. Assert: Title is “New Window”")
     public void verifyWindows(){
         multipleWindowsPage.clickHere();
-        Assert.assertEquals(utils.getWebTitle(),"Practice");
+        Assert.assertEquals(Driver.getDriver().getTitle(),"Practice");
 
         Set<String>allWindows=Driver.getDriver().getWindowHandles();
 

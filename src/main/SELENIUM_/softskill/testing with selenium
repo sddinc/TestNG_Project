@@ -1,0 +1,64 @@
+    ● Functional Tests (positive/negative, UI)
+    ● Smoke Tests
+    ● Regression Tests
+    ● Integration Tests
+    ● End-to-end Testing
+
+
+      ● Data Driven
+
+
+
+
+
+    What are the test types
+    we don’t automate with Selenium?
+
+    ● Performance, stress, load testing: Selenium is about functionality only.
+    ● Manual ad hoc testing
+    ● Usability testing ???
+    ● Pure DataBase testing. If you do database only, you don’t need Selenium.
+    ● Unit testing
+    ● Static testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

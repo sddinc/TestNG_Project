@@ -1,0 +1,20 @@
+
+
+   TestNG listeners mainly
+   used to generate the
+   report for the test.
+   Also, you can capture
+   a screenshot when there is a test failure.
+
+   Using ITestListener interface
+   and method onTestFailure
+    we can get a screenshot of our failed test case.
+
+
+
+   ● configure reports and logging.
+   ● widely used listeners : ITestListener interface.
+   ● It has methods like onTestStart, onTestSucess. onTestFailure, on TestSkipped...
+   ● we should implement this interface creating a listener class of our own,
+   ● Next, we should add the listeners annotation (@Listeners) in the class
+

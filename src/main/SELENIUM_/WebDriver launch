@@ -1,0 +1,9 @@
+
+   // set the property for chrome driver, specify its location via the webdriver.chrome.driver
+   System.setProperty("webdriver.chrome.driver", driverPath+"chromedriver.exe");
+
+   // instantiate an instance of ChromeDriver, which will be driving our browser:
+    public static WebDriver driver = new ChromeDriver();
+
+    // navigate to the specific url
+   driver.get("http://google.com");

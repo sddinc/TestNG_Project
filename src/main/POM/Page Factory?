@@ -1,0 +1,14 @@
+
+
+   we use annotations @FindBy
+   to find the elements and
+   initElements method to
+   initialize the web elements.
+    @FindBy can accept tagName,
+    partialText, name, linkText, id, css, className, and XPath
+    as attributes.
+    Syntax:
+    @FindBy(css = "[title='Create Calendar event']") public WebElement createCalendarEventBtn;
+
+    public BasePage() {
+    PageFactory.initElements(Driver.getDriver(), this);

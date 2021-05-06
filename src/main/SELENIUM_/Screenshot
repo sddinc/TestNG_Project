@@ -1,0 +1,12 @@
+    We use TakeScreenShot interface to capture screenshot
+       //Step 1. Convert web driver object to TakeScreenshot
+       TakesScreenshot scrShot =((TakesScreenshot)webdriver);
+
+       //Step 2. Call getScreenshotAs method to create image file
+       File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
+
+      //Step 3. Move image file to new destination
+     File DestFile=new File(fileWithPath);
+
+    //Step 4. Copy file at destination
+    FileUtils.copyFile(SrcFile, DestFile);

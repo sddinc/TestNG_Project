@@ -1,0 +1,13 @@
+
+  HTTP request is what the client sends to the server. It has detailed information about what we want.
+  Requests have urls, methods, headers, parameters, body. Request is made up of four components:
+   ➔ RequestMethod:Get,Post,Put,Delete(thesearethecommonones)
+   ➔ RequestURI:theURLoftheresource
+   ➔ RequestHeader:Accept-Language,Accept-Encoding,User-Agent,Host
+   ➔ RequestBody:This is the data to be sent to the resource.
+
+    HTTP response is what we get back from the server as a result/answer/reply.
+     Response has status code, headers, and body.
+    ➔ ResponseStatusCode:200,301,404,500(these are the most common ones)
+    ➔ ResponseHeaderFields:Date,Server,Content-Type
+    ➔ ResponseBody:This is the data that comes back to the client from the server

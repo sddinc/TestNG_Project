@@ -1,0 +1,42 @@
+
+Both Error and Exception
+are comes from Throwable in Java.
+
+
+    Types of exceptions
+
+    ● Checked Exceptions (Compile time):
+    ○ without Runtime
+    Exceptions are known
+    as Checked exceptions
+    as the compiler checks
+    them during compilation
+    to see whether the
+     programmer has handled them or not.
+
+    ○ If these exceptions are
+    not handled/declared in the program,
+    you will get compilation error,
+    so this exception must
+    be handled immediately.
+     For example, SQLException,
+     IOException, ClassNotFoundException etc.
+
+    ● Unchecked Exceptions (Runtime):
+    ○ Runtime Exceptions
+    are also known as Unchecked Exceptions.
+    These exceptions are
+    not checked at compile time,
+    so the compiler does
+    not check whether the programmer has handled them or not.
+
+    ○ Since Unchecked exception
+    happen during runtime, so if they occur,
+    the program will be interrupted
+    during execution making
+    these exceptions are more difficult to handle.
+    ○ It’s the responsibility
+    of the programmer to handle
+    these exceptions and provide a
+    safe exit. For example,
+    ArithmeticException, NullPointerException, ArrayIndexOutOfBoundsException etc.

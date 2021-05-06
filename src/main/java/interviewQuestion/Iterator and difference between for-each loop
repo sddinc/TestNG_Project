@@ -1,0 +1,22 @@
+
+    ● Iterator works with ArrayList, not with Array.
+      It helps us to iterate through the elements.
+     With an iterator you can make changes (remove item)
+      to the list while iterating.
+
+    ● With for-each loops, we can only iterate through lists but cannot make any changes to our
+    lists.
+
+    Remove all data elements that are equal to 1
+    List<Integer> list2 = new ArrayList<>();
+
+    list2.addAll(Arrays.asList(1,1,1,2,2,2,3,3,4,5,6,7,8,1,1,1));
+    Iterator<Integer> it = list2.iterator();
+        while (it.hasNext()){
+           int num = it.next();
+           if(num==1){
+            it.remove();
+        }
+    }
+    System.out.println(list2);
+

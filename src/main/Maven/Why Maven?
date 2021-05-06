@@ -1,0 +1,19 @@
+    ❖ Central Repository
+    to get dependencies:
+    You don’t have to
+    download jars to
+    your computer as maven will take care of it for you.
+
+    ❖ Maintaining common
+    structure across the organization:
+    If we use maven, everyone in the team will follow the
+    same template given by maven.
+
+    ❖ Flexibility in Integrating with CI tools:
+    Maven can easily integrate with CI tools like Jenkins.
+
+    ❖ PlugIns for Test Framework Execution:
+    Mave has plugins supporting
+    tools like TestNG and JUnit
+    which help you to
+    use all features of TestNG in maven as well.

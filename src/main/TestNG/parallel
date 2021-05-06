@@ -1,0 +1,22 @@
+
+
+    ● We can use “parallel” attribute in testng.xml
+    to accomplish parallel test execution in TestNG
+
+    ● The parallel attribute of suite
+    tag can accept four values:
+    ○ Classes: All the test cases inside a java class will run parallel
+    ○ Methods: All the methods with @Test annotation will execute parallel
+    ○ Instances: Test cases in the same instance will execute parallel but two methods of
+    two different instances will run in different threads.
+
+    <suite name=”softwaretestingmaterial”
+    parallel=”methods”>
+    Parallel execution in testNG
+
+    ● In xml file write:
+    parallel=”tests”thread-count=”4”
+    Thread-count is how many browsers you want to open same time
+
+    ● In the xml file you can add .* to run everything.
+    Ex: <package name=”.*”></package>
