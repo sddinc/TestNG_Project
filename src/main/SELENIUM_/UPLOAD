@@ -1,0 +1,18 @@
+
+
+    ● First, locate the element
+     which takes the path of
+     the file we want to upload.
+     It is usually “Choose File” button
+    WebElement input = driver.findElement(“id”);
+    ● Second, provide the
+     path to the file using
+     the sendKeys method:
+    input.sendKeys(“/path/to/file/here”);
+
+
+    ● We need to locate
+    the upload button in html.
+    ● The element will have tag input.
+    ● Then we do sendKeys
+    by passing the path to the file which we want to upload.

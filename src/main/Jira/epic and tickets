@@ -1,0 +1,13 @@
+    ● Epic are written by B.A, tickets are created by testers
+
+    ● Description box
+        ○ Example reporting a bug
+        ○ You write in the box
+            ○ Bug
+            ○ Epic
+            ■ What the bug is about
+            ■ What functionality is breaking
+            ■ What are the steps of recreating the bug (with necessary data)
+            ■ Attach report and screenshot of bug
+            ■ Expected results
+            ■ Actual results

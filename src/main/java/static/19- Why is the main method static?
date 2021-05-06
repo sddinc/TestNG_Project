@@ -1,0 +1,8 @@
+
+
+    - If we make the main method non- static,
+    the JVM will have to create an object first
+    and then call main() method which
+    will lead to the extra memory allocation.
+    -The main method being static also allows
+     us to call other static variable or methods.

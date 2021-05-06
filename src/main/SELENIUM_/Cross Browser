@@ -1,0 +1,25 @@
+
+  -There are multiple
+  ways to achieve
+  cross browser testing
+  depending on the framework.
+
+  testng,Cucumber and JUnit
+  they have own way
+
+  In my framework,
+  I use JUnit/Cucumber.
+  To handle different browsers,
+  I use a properties
+  file where I can pass the
+  name of the browser that
+  I want to work with.
+
+   I also have a Driver utility
+    class that can open different
+    types of browsers depending on the
+    value in the properties file.
+    I have a switch statement in the Driver
+     utility so if I define the value of browser
+      as “chrome” in the properties file,
+      Driver utility class will return a ChromeDriver.

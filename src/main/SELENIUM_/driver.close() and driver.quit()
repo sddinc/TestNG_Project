@@ -1,0 +1,6 @@
+
+
+
+close() - It is used to close the browser or page currently which is having the focus.
+
+quit() - It is used to shut down the webdriver instance (Close all the windows).

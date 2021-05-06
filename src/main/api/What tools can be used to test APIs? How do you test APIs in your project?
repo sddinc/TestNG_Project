@@ -1,0 +1,12 @@
+
+    In my project we have REST APIs. For manual testing we use Postman.
+    We set global and environment variables so we can easily change any values from one location so that
+    the respective change can immediately be updated wherever the variable is called.
+    We also use Postmans available JavaScript methods to validate status codes and verify data from our response body,
+    and Postman’s collection runner to execute multiple calls at once in the desired order.
+    Additionally we are using RestAssured Java library.
+    As a tester I send an API request (whether it is a GET, POST, PUT or DELETE call) and then I verify the status code, response body and check headers.
+    I verify that each endpoint is working as expected. I do positive and negative testing of APIs:
+
+    Positive - I am sending valid requests, headers, parameters, and Json body and then verify that response is 200/201
+    Negative- I am sending invalid requests, headers, parameters, and body, expecting the status code not to be 200/201.

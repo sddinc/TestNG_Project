@@ -1,0 +1,14 @@
+
+
+
+    we use ‘Dimension’ class t
+    o resize the browser window.
+    Create object of Dimensions class
+
+    Dimension d = new Dimension (480,620);
+    Resize the current
+    window to the given dimension
+    driver.manage().window().setSize(d);
+
+    Maximize web pages
+    driver.manage().window().maximize();

@@ -1,0 +1,20 @@
+
+    ● Selenium IDE is
+    implemented as
+    Chrome and Firefox extension,
+    and allows us to record,
+    edit, and debug tests.
+    ● Selenium RC
+    is to write automated
+    web application
+    UI tests in any programming language
+    ● Selenium WebDriver
+    interface,
+    executes our tests
+    against different browsers
+
+    ● Selenium GRID
+    runs our tests
+    on different
+    machines against
+    different browsers in parallel.

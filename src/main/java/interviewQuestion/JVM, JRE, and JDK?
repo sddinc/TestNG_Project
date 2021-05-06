@@ -1,0 +1,35 @@
+
+    ● JDK: Java Development Kit.
+    It helps you
+    write a java program
+    and save it as source code (.java).
+
+
+    ● JRE: Java Runtime Environment:
+    It has the minimum requirements
+    to execute a Java application.
+    It contains JVM and some libraries.
+
+    ● JVM: Java Virtual Machine:
+    It runs byte code (.class).
+    JVM is included in both JDK and JRE.
+    Whenever you run a Java program,
+    JVM executes the program
+    line by line so that is
+    why it is called interpreter.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    l

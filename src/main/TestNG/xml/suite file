@@ -1,0 +1,3 @@
+
+ In a Selenium TestNG project,
+ we use testng.xml file to configure the complete test suite in a single file.

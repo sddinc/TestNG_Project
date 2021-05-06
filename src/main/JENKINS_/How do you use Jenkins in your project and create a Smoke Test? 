@@ -1,0 +1,24 @@
+
+
+    ● In my project, we use Jenkins for CI/CD and
+    we have Jenkins jobs for regression and smoke tests.
+
+    We usually don’t have access to Jenkin configuration which is done by Devops but here are the steps:
+    1. Pull the code from repo (GitHub)
+    2. Specify the maven goal - command - run “mvn test”
+    3. Generate the cucumber HTML report
+    4. Send email notifications / slack notifications
+    5. Publish tests results on Jira with Xray (optional)
+
+
+    ● Our Smoke test has 2 triggers,
+    which helps to automate the process:
+    ○ First trigger is based on time:
+      The smoke test runs everyday at 5am.
+    ○ Second trigger is based on a new build:
+       Once the new build has been deployed,
+    smoke test triggers automatically to make sure everything is up and running.
+    ● In my company, we have Smoke Tests only.
+    I know some other companies have "sanity
+    tests" which are kinda a smaller
+    scale of smoke tests but my company implements only smoke testing.

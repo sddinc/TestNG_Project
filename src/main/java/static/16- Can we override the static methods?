@@ -1,0 +1,8 @@
+
+
+    ● No, we can't override static methods.
+     inheritance this will be method hiding, not overriding.
+
+    ● Static belongs to class, not the object,
+    so its implementation should not be changed
+    from class to class.

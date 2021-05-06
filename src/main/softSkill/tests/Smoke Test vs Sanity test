@@ -1,0 +1,13 @@
+
+    Smoke testing verify that core functionalities
+    of the program are working fine absolutely.
+    This testing focuses on the entire system from end to end.
+    This Testing is usually documented and scripted.
+    Smoke testing is a subset of acceptance testing.
+
+    Sanity Testing is done to check either
+    new functionalities or bugs have been fixed
+     properly without going deeper.
+     This testing is not documented or scripted.
+      Sanity testing is a subset of regression testing.
+    Sanity testing focused on selected components of a system.

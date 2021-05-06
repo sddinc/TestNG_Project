@@ -1,0 +1,5 @@
+
+    ● Allows to include or exclude the execution of test methods and test groups
+    ● Allows to add group dependencies
+    ● Allows to add priorities to the test cases
+    ● Allows to configure parallel execution of test cases

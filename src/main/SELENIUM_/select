@@ -1,0 +1,13 @@
+
+
+    how to check the multiple selected values in dropdown?
+    ➔ Select carsList=newSelect(el)
+    carList.getSelectedOptions(): //returns the the selected options a list ( List<webelement>)
+    for each : carList.getSelectedOptions()
+
+
+    How to check the selected value in dropdown?
+      Select carsList = new Select(el);
+      carList.getFirstSelectedOption();
+      assertequals(“some text”, carList.getFirstSelectedOption().getText() );
+

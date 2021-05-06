@@ -1,0 +1,15 @@
+
+
+ We use JavascriptExecutor
+//to perform Scroll Up on application using Selenium
+JavascriptExecutor js = (JavascriptExecutor) driver;
+ js.executeScript("window.scrollBy(0,250)");
+
+    //to perform Scroll Down on application using Selenium
+    JavascriptExecutor js = (JavascriptExecutor) driver;
+     js.executeScript("window.scrollBy(0, -400)");
+
+
+     //to scroll an application to specified elements
+     JavascriptExecutor je = (JavascriptExecutor) driver;
+     je.executeScript("arguments[0].scrollIntoView(true);",element);

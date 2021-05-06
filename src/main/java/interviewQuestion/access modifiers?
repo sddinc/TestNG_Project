@@ -1,0 +1,37 @@
+
+
+    In Java, there are
+    four access specifiers
+   ● Public:
+   accessible from everywhere
+   The classes, methods,
+   or variables which
+   are defined as public,
+
+
+    ● Protected: accessible
+    within the
+    same package or
+    sub classes in different packages.
+    It is a package private
+    as long as it is not inherited.
+
+    ● No modifier/default:
+    accessible only within
+    the same package.
+
+    ● Private:
+     accessible only within
+     the class.
+    In myproject:
+
+    ● I use private access
+    modifiers to achieve
+    encapsulation to limit
+    the outside access.
+    I make the constructor
+    private to avoid class
+    instantiation as
+    in the Driver class.
+    All fields in POJO
+    classes are private.

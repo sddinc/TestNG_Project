@@ -1,0 +1,25 @@
+
+  ● Autoboxing:
+   casting primitive
+   types to the object of their
+   corresponding wrapper
+   classes
+   For example – conversion of int to Integer,
+   long to Long, double to Double etc.
+
+  ● Unboxing:  converting
+  an object of a wrapper class
+  to its corresponding
+  primitive type is known as unboxing.
+   For example – conversion
+   of Integer to int,
+
+
+
+
+
+
+
+
+
+   36

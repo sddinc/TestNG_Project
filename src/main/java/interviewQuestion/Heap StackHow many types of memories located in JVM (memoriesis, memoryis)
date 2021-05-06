@@ -1,0 +1,8 @@
+
+    How many types of memories located in JVM (memoriesis, memoryis)
+         ● Stack: Variables ● Heap: Objects
+
+    Stack vs heap? (stackis, heapis)
+        ● Both are used for memory but have different purposes
+        ● Stack: Stores primitives, method calls, and references
+        ● Heap: Stores the objects themselves. The String pool is also in the heap

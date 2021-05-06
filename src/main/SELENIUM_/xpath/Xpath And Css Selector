@@ -1,0 +1,13 @@
+
+
+    ● Xpath can search elements
+     backward or forward while
+     css works only in forward direction.
+    ● Xpath can work with text,
+     css cannot work.
+    ● Xpath has more combinations and can search by index,
+    css cannot search by index, but css
+    is working faster than xpath.
+    ● CSS is faster than XPath
+    but I never experienced it in my framework as it is a smaller
+    project.

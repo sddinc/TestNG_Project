@@ -1,0 +1,42 @@
+
+JavaScript Alerts
+ We can handle web based pop-ups using Alert Interface.
+
+ Alert alert = driver.switchTo().alert();
+
+ alert.dismiss();
+
+  alert.accept()
+
+  alert.accept()
+
+  alert.sendkeys(“text”)
+
+   Html Alerts -
+
+   They are like regular
+   web elements so we can locate and click on them.
+
+
+   ● Windows/OS Alerts:
+   Selenium cannot handle
+   OS (operation system)/windows based alerts.
+    There are 3rd party tools such as AutoIT, Robot, etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

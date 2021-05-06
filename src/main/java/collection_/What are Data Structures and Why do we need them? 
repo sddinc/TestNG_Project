@@ -1,0 +1,9 @@
+
+● Data structures are a way of organizing data for efficient manipulation:
+insertion, searching, reading, and deletion of data.
+ ● When there is more than one variable, it is data structure:
+  Array, ArrayList, Maps, Set, HashMaps, LinkedLists,etc.
+ ● Array: It is the simplest data structure.
+ It is not resizable so it is static.
+ ● In my project, I always use Java data structures
+  for reading data and storing data from my application, database, or API.

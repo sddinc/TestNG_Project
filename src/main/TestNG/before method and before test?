@@ -1,0 +1,7 @@
+
+
+    ● @BeforeMethod - The annotated method will be run after
+    all the test methods in the current class have been run.
+    @BeforeMethod will be executed just before any function/method with @Test annotation starts.
+
+    ● @BeforeTest ​- The annotated method will be run before any test specified in .xml file using <test> tag is run.

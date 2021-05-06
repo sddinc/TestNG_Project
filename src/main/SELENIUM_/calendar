@@ -1,0 +1,19 @@
+Step 1- Click on calendar
+Step 2- Get all td of tables using findElements method
+Step 3- using for loop get text of all elements
+Step 4- using if else condition we will check specific date Step
+5- If the date is matched then click and break the loop.
+public class CalendarHandling {
+    public static void main(String[] args) {
+     System.setProperty("webdriver.firefox.marionette","G:\\Selenium\\Firefox driver\\geckodriver.exe");
+     WebDriver driver=new FirefoxDriver();
+     driver.get(“URL) driver.findElement(By.id("datepicker")).click();
+     List<WebElement> allDates=driver.findElements(By.xpath("//table[@class='ui-datepicker-calendar']/t body/tr/td"));
+         for(WebElement ele:allDates) {
+             String date=ele.getText();
+             if (date.equalsIgnoreCase("28")) {
+              ele.click();
+         }
+     break;
+     }
+ }

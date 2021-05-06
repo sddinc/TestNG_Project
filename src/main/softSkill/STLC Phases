@@ -1,0 +1,85 @@
+
+    Requirements Analysis
+    Test Plan Creation
+    Test Case Creation
+    Environment Setup
+    Test Execution
+    Test Cycle Closure
+
+
+  Step 1: Requirement Analysis:
+    Analyze and study the requirements.
+    This phase helps
+    to identify the scope of the testing.
+
+    PO or team lead assigns
+    you user stories to test ,
+
+    I read the user story
+    carefully and make
+    sure to understand it well.
+
+  Step 2: Test Plan Creation:
+
+    A detail of how the test will proceed,
+     who will do the testing,
+      what will be tested,
+     in how much time the
+     test will take place,
+     and to what quality level the test will be performed.
+
+     TEMPLATE:
+     Test Plan Identifier
+     Introduction
+     References
+     Test Items
+     Features to be Tested
+     Features Not to be Tested
+     Approach
+     Item Pass/Fail Criteria
+     Suspension Criteria and Resumption Requirements
+
+  Step 3: Test Case Creation
+     Test Deliverables
+     Test Environment
+     Estimate Schedule
+     Staffing and Training Needs
+     Responsibilities
+     Risks
+     Assumptions and dependencies
+      Approvals
+
+ Step 4: Environment Setup
+
+  Developers should push their codes from dev environment to QA environment
+  Activities
+  Understand the required architecture, environment set-up and prepare hardware and software requirement list for the Test Environment.
+  Setup test Environment and test data
+  Perform smoke test on the build
+  Deliverables
+  Environment ready with test data set up
+  Smoke Test Results.000000
+
+  Step 5: Test Execution
+  During this phase test team will carry out the testing based on the test plans and the test cases prepared test manually or/and automatically
+  Activities
+  Execute tests as per plan
+  Document test results, and log defects for failed cases Map defects to test cases in RTM
+  Retest the Defect fixes
+  Track the defects to closure
+  Deliverables
+  Completed RTM with the execution status Test cases updated with results
+  Defect reports
+  Step 6: Test Cycle Closure
+  Test Report on Jira
+  Defect Report
+  All of the bugs are handled Test Lead is responsible
+
+
+
+
+
+
+
+
+

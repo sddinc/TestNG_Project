@@ -1,0 +1,7 @@
+
+    First store that element in object,
+     let's say element and then write the following code to click on that hidden element
+
+    WebElement element=”property of element”;
+    JavascriptExecutor js = (JavascriptExecutor)driver;
+    js.executeScript("arguments[0].click();", element);

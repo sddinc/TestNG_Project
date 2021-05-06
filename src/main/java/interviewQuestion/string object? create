@@ -1,0 +1,8 @@
+1) String Literal
+Java String literal is created by using double quotes.
+
+
+2) By new keyword
+1. String s=new String("Welcome"); //creates two objects and one reference variable
+In such case, JVM will create a new string object in
+normal (non-pool) heap memory, and the literal "Welcome"

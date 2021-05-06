@@ -1,0 +1,10 @@
+● Pipeline is a more advanced version of Jenkins job.
+To declare Jenkins pipeline, you need to use DSL that is based on groovy.
+With a pipeline, you have more freedom. You can parallelize your tasks.
+ Pipeline looks like a script and usually saved as a jenkins file.
+ Pipeline can be used to develop CI/CD pipeline or to develop smoke/regression jobs for testing.
+
+● Pipeline is done by Devops or Senior Developers
+so as testers we DON’T get involved with this process
+and only work with Jenkins jobs.
+Not all companies do Pipeline, so no need to mention in the interview.

@@ -1,0 +1,61 @@
+● Array: (arrayis)
+    ○ A part of data
+    structure.
+
+    ○ Fixed size,
+    cannot be resized.
+
+    ○ Can store both
+    primitive types and objects.
+
+    ○ Can be
+    multidimensional.
+
+    ○ It is faster
+
+    ○ We find the
+    length of an Array
+    with .length attribute.
+
+● ArrayList: (arris)
+    ○ A part of Collection.
+    ○ Dynamic and
+    can be resized.
+
+    ○ Can store only
+    wrappers and objects,
+
+    ○ Cannot be
+    multidimensional.
+
+    ○ It is slower
+    compared to Arrays.
+    ○ We find the
+    length of an
+    ArrayList with
+    .size() method.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    dfff

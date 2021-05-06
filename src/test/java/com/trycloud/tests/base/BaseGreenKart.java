@@ -26,7 +26,6 @@ public abstract class BaseGreenKart {
     public void setUp(){
         Driver.getDriver().get(ConfigurationReader.getProperty("urlGreenKart"));
         Driver.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
     }
     @FindBy(xpath = "//a[@class='cart-icon']")
     private WebElement cartIconLink;

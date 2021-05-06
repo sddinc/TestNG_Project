@@ -1,0 +1,85 @@
+
+    ● Selenium is
+    open source and free
+    to use without
+    any licensing cost
+
+    ● It supports
+     multiple languages
+     like Java, Ruby, Python, C#...
+
+    ● It supports
+    multi-browser testing
+
+    ● It has a good
+    amount of resources
+    and a supporting community.
+
+    ● It supports
+     many operating
+    systems like
+    Windows, Mac, Linux ...
+
+    ● It interacts with
+    the web applications
+
+
+    disadvantages
+    ● Selenium supports
+    only web-based applications,
+    does not support
+    windows-based
+    application
+
+    ● No built-in reporting tool,
+    it needs third party
+    tools for report generation activity
+
+    ● Cannot work with
+    graphics,
+    captchas, barcodes, shapes
+
+
+    ● Hard to write
+    good and stable locators
+    since they are
+     dependent on web developers.
+
+    ● We have to use
+    external libraries and tools for
+    erforming tasks like testing framework (TestNG, JUnit),
+     reading from external files (Apache POI for excel)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

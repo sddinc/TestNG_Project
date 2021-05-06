@@ -1,0 +1,39 @@
+ 2. SET - Interface:A Set is a
+    Collection that
+    cannot contain
+    duplicate elements.
+    Set interface
+    only allows a single null value.
+
+ ● HashSet - class:
+    ○ It doesn’t maintain
+    any order, the elements would
+     be returned in
+     any random order.
+    ○ It doesn’t allow
+    duplicates.
+     If we try to add a duplicate
+      element in HashSet,
+     the old value would
+     be overwritten.
+    ○ It allows null
+     values however if we
+     insert more than one null,
+     it would still return only one null value.
+
+ ● LinkedHashSet - class:
+    ○ It maintains
+    the insertion order.
+    ○ It is basically
+    an ordered version of HashSet
+    so you can use it
+    when you care
+    about the insertion order.
+
+ ● TreeSet - class:
+    ○ TreeSet is similar
+    to HashSet except that it
+    sorts the elements
+    in the ascending order
+    ○ It is  slower
+    than HashSet.`

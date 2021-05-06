@@ -1,0 +1,14 @@
+
+
+    ● Garbage collector automatically
+    checks the heap memory and
+    deletes the unused objects.
+
+    ● You cannot force the
+    garbage collector
+    to delete the files.
+
+    ● Types of Garbage Collector:
+    Serial, Parallel, CSM (Concurrent Mark Sweep),
+    G1 (Garbage
+First)

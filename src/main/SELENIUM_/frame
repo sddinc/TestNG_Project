@@ -1,0 +1,41 @@
+
+  Frame is a html document
+  inside another html document.
+
+
+
+    Frames cannot be handled
+    by Selenium directly.
+    To identify frame we
+    use id, name and frame webelement.
+
+    First, locate the iframe
+    Switch to another iframe
+    with driver.switchTo().frame
+    Frame is a html
+    document inside another html document.
+
+    Web driver handles one page/html document at a time.
+    To control another frame, we always need to switch
+    Driver.switchTo.frame(webelement) - find the iframe and pass as a param ID
+    Driver.switchTo.frame(string) - find the id or name of the iframe and pass as a param
+    Driver.switchTo.frame(int) - find the index and pass as a param
+
+    How to handle multiple frames? (multipleframesis) ͝
+    If there are 4 frames,
+     we have to go through each from consecutively
+     to reach certain frame.
+     we can't jump to the 3rd frame from 1st frame
+
+
+    I will first switch frame 1
+    driver.switchTo().frame(1);and enter text then come to default main
+
+    using driver.switchTo().defaultContent();
+
+    again I will switch to second frame
+    driver.switchTo().frame(2);
+    and click on button
+
+
+

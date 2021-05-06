@@ -1,0 +1,28 @@
+
+  DataProvider means
+  that the same test methods
+  can be run multiple
+  times with different datasets.
+
+  ● By using @DataProvider annotation,
+    I can create a Data Driven Framework
+
+  ● Annotated methods return an array of Object, i.e.
+  Object[][] two dimensional array.
+  ● DataProvider can have a name, and
+  it will be used in other methods by using its name.
+  ● It can be implemented
+  in the same class or different classes.
+
+   @Test(dataProvider = "testDate")
+      public void titleVerification2(String url, String title) {
+          Driver.getDriver().get(url);
+          org.junit.Assert.assertEquals(Driver.getDriver().getTitle(), title);
+      }
+
+      @DataProvider
+      public Object[][] testDate() {
+          return new Object[][]{{"https://www.amazon.com/", "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"},
+                  {"https://www.google.com/", "Google"}};
+      }
+

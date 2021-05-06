@@ -1,0 +1,54 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    Hub in Selenium Grid?
+    A hub is server or a central point that
+    controls the test executions on different machines.
+
+    Node in Selenium Grid?
+    Node is the machine, which is attached to the hub.
+     There can be multiple nodes in Selenium Grid.
+
+     When do you use Selenium Grid?
+     Selenium Grid can be used to execute same or different
+     test scripts on multiple platforms and browsers concurrently
+      so as to achieve distributed test execution
+
+
+      How does Selenium Grid work?
+
+      Grid is a set up that consists of Hub and nodes
+      Hub is a central machine that all nodes connect to
+      Has IP address and port number. Then we link the Hub to Nodes
+      There is a main machine which is called a Hub
+      and multiple nodes (the machines that actually run our tests)
+      The order of execution is;
+      Our code > remote driver > Selenium Hub > Selenium nodes (might be multiple ones)
+      I asked my Selenium Hub to run my tests
+      Then selenium hub will find a node that is linked to the hub and run my test from there.
+      We can have as many nodes as we want but only one hub.
+
+
+      How do you set up your selenium grid?
+
+      Our hub and nodes will be set up in Amazon AWS Ec2 machines (ideally)
+      We can ask our hub to run tests and then the hub will find a node and
+      run our test from there. Each node registers to the HUB with a certain configuration
+      and HUB is aware of the browser available on the node.
+      When a request comes to the HUB for a specific browser (with DesiredCapabilities object),
+      the HUB, if found a match for the requested browser,
+       redirects the call to *that* particular GRID Node and then
+       a session is established bidirectionally and execution starts.
+

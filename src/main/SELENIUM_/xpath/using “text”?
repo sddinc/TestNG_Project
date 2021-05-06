@@ -1,0 +1,19 @@
+
+  no locator is available
+  to find an element
+  so you may need to use text().
+
+  there is no id, class, etc.
+  available so you can just search
+  for the text “announcement”
+  which is written on the button.
+   In this case, Selenium will look for the text to locate it.
+
+   It is not that much recommended
+    to use text() since the developers change it a lot.
+
+  ● Syntax:
+   ○ Matching exact text:   //tag[.=‘text’] →
+                            //span[.= ‘announcement’]
+   ○ Matching partial text: //tag[contains(text(), ‘text’)] →
+                             //span[contains(text() ,‘announcement’)]

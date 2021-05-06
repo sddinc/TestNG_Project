@@ -1,0 +1,11 @@
+
+
+    Scroll Down?
+    We need to use JavaScript Executor.
+    WebDriver driver = new ChromeDriver();
+    JavascriptExecutor jse = (JavascriptExecutor)driver;
+    jse.executeScript("scroll(0, 250);");
+
+    Scroll Up? (ScrollUpis)
+    jse.executeScript("window.scrollBy(0,-250)", ""); or
+    jse.executeScript("scroll(0,-250);");

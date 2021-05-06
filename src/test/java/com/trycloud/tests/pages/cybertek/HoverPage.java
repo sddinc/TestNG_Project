@@ -1,9 +1,9 @@
 package com.trycloud.tests.pages.cybertek;
 
+import com.trycloud.tests.base.BaseCybertekPage;
 import com.trycloud.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 

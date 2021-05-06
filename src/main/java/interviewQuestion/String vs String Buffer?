@@ -1,0 +1,36 @@
+
+
+    -The String class is immutable.
+    The String Buffer class is mutable.
+
+    The String is slow and
+    consumes more memory when
+    we concat too many strings
+    because every time
+    it creates a new instance.
+
+    The String Buffer is
+    fast and consumes
+    less memory when we
+    cancat strings.
+
+    The String class
+    overrides the equals()
+    method of Object class.
+    So we can compare the
+    contents of two strings
+    by equals() method.
+    The String Buffer class
+    doesn't override the
+    equals() method of Object class.
+
+
+
+
+
+
+
+
+
+
+    23

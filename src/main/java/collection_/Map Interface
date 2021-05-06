@@ -1,0 +1,48 @@
+  MAP Interface: A Map is an object that
+  maps keys to values.
+
+  A map can not contain
+  duplicate keys.
+
+  Both key and value
+  do not support primitives.
+  The main implementations
+  of Map interfaces
+  are HashMap, LinkedHashMap,
+  HashTable.and TreeMap.
+
+● HashMap: - class
+  ○ It is NOT an ordered collection
+   which means it does not return the
+   keys and values in the same
+   order in which they have been
+   inserted into the HashMap.
+
+  ○ It does NOT sort the
+  stored keys and Values.
+  ○ Accepts only one null
+  key but any number of null values.
+
+● LinkedHashMap: - class
+  ○ maintains the insertion order as it is
+  doubly linked. It has a faster iteration.
+  ○ put() & remove() are faster than hashmap // modifying the data.
+  ○ get() is slower than hashmap // retrieving the data.
+● HashTable: - class
+  ○ It is synchronized. It ensures that
+  no more than one thread
+  can access the Hashtable at a given moment of time.
+  ○ It doesn’t allow null keys and null values. NO nulls at all.
+
+● TreeMap: - class implements SortedMap Interface
+  ○ It is sorted in the
+  ascending order of its keys.
+
+  MAP Methods:
+  ○ .put(key, value): inserts key and value objects to the map.
+  ○ .get(key):retrieves the value of the given key.
+  ○ .remove(key): removes the given key object and its value.
+  ○ .size(): returns the size of the map.
+  ○ .containsKey(key): verifies if the given Key exists in the map and returns boolean.
+  ○ .containsValue(value): verifies if the given value exists in the mapand returns boolean. ○ .keySet():returns all the keys as Set Interface.
+  ○ .clear(): removes everything in the map, size will become 0 after the execution.

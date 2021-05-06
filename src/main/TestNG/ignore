@@ -1,0 +1,7 @@
+
+
+  ● To ignore the test case,
+   we use the parameter enabled = false
+   to the @Test annotation
+
+   @Test(enabled=false)

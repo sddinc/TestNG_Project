@@ -1,0 +1,10 @@
+    ❖ There are 3 builtin build lifecycles.
+
+    Clean : Handles project cleaning.
+    Default   : Handles your project deployment.
+    Site  : Handles creation of project’s site documentation.
+
+
+
+
+

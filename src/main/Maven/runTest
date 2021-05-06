@@ -1,0 +1,15 @@
+
+
+     I run my tests in Maven using the mvn test command.
+     I need my project to be run from Maven because
+     Jenkins runs the tests using Maven.
+    ❖ Sometimes when I run locally
+     I use mvn verify because
+    I use a plugin in my pom
+    file that generates reports to verify lifecycle.
+
+    ❖ When I run in Jenkins,
+    I use the command mvn test.
+    I don’t need to say verify here
+     because Jenkins creates reports using its own plugin,
+    it does not use the plugin in the pom file.

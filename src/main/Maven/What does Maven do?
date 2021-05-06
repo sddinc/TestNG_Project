@@ -1,0 +1,9 @@
+
+
+    ❖ Building/creating a project.
+    ❖ Adding jars and other dependencies of the project.
+    ❖ Maven provides project information:
+    log document, dependency list, unit test reports, etc.
+    ❖ We can run tests.
+    ❖ Create reports.
+    ❖ Integrate our project with source control systems such as Subversion or Git.

@@ -1,0 +1,56 @@
+
+    Lists may contain
+    duplicate elements.
+    Elements can be inserted
+    or accessed by their position
+    in the list, using a
+    zero-based index.
+    They are dynamic sized - resizable.
+
+
+    ● ArrayList - class:
+    ○ It is a class
+    implements List interface
+    and it is based o
+    n an Array data structure.
+    It is widely used because
+    of the functionality
+    and flexibility it offers.
+
+    ○ It is resizable
+    unlike the Arrays.
+    ArrayList can dynamically grow and shrink after
+    addition and removal of elements
+
+    *****
+    Preferably to use
+    when searching for
+    an element/object.
+
+
+    ○ It is not sorted but
+    can be sorted using
+    Collections.sort() method.
+
+    ● LinkedList - class:
+    ○ LinkedList is a linear data structure.
+    ○ LinkedList elements are not stored ,
+    they are
+    linked with each other using pointers.
+
+    **** It has slower iteration
+     but faster addition and deletion.
+      Preferably to use when
+      adding and deleting
+       an object/element.
+
+    ● Vector - class:
+    ○ Vector implements List Interface.
+    ○ maintains insertion
+    environment as it is synchronized
+
+    *** which it gives poor performance in searching, adding,
+    deleting and updating of its elements.
+    ○ Vector has a child class: Stack
+    ■ Stack: synchronized (thread-safe)
+    ■ pop(): LIFO ==> Last in First Out - removes the last object from the stack

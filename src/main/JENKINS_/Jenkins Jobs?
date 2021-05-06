@@ -1,0 +1,9 @@
+
+    ● In Jenkins, everything is done by creating a job
+    ● It is a task that Jenkins performs based
+    on its schedule which set by DevOps or by the
+    testers depending on the company’s culture
+    ● It includes several steps such as pulling the code,
+    running the tests, generating the
+    reports, sending the email notifications, etc.
+    ● It can have triggers that determines when it runs

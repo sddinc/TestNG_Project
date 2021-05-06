@@ -1,0 +1,41 @@
+      Singleton is a design pattern in OOP.
+
+     In my Driver class
+     I prefer to use Singleton
+     Design Pattern which
+     contains a private WebDriver
+     object and
+     private constructor
+     and also a public getter method.
+
+     By doing so, I ensure that
+     there is going to be
+     only a single WebDriver
+     object throughout the framework
+     and none of the class
+     will be able to create
+     another WebDriver object.
+
+
+
+     ● How to make a class Singleton:
+     ○ Create static instance
+     ○ Make constructor private
+     ○ Create a public static getInstance()
+     method, which will return an instance.
+     public class Singleton{
+         private static WebDriver driver = new ChromeDriver(); // private static instance
+         private Singleton(){
+         }                   // private constructor
+         public static WebDriver getDriver(){ //
+         public static getInstance() method
+         return driver;
+         }
+          }
+         By doing so, I ensure that
+          there is going to be
+          only a single WebDriver
+          object throughout the framework
+          and none of the class
+          will be able to create
+          another WebDriver object.

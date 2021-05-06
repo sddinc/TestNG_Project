@@ -1,0 +1,13 @@
+
+
+ Selenium Grid is an automation tool that gives us the
+ ability to run our automated tests in different browsers
+
+ Selenium Grid is very useful
+ if you have many tests
+ (500+) as you can save from time.
+
+ ● Instead of doing
+ ○ WebDriver driver=new Chromedriver()
+ ● Do
+ ○ WebDriver driver=new RemoteWebDriver(url,capabilities) //Contains 2 parameters in constructors

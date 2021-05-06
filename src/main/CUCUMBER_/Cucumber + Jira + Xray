@@ -1,0 +1,3 @@
+● In my project, my tests in Jenkins are connected to Jira.
+
+We achieve this with a special plugin, Xray in Jira. The results of my smoke tests will be reported to Jira everyday.

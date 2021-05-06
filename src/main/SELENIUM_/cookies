@@ -1,0 +1,32 @@
+
+
+    ● Each cookie is associated with a name, value, domain, path,
+    expiry, and the status of whether it is secure or not.
+    In order to validate a client, a server parses all of these values in a cookie.
+    ● When Testing a web application using a selenium web driver,
+    we may need to create, update or delete a cookie.
+    ● For example, when automating Online Shopping Application,
+     we may need to automate test scenarios like place order,
+     View Cart, Payment Information, order confirmation, etc.
+
+    ● If cookies are not stored,
+    we will need to perform login
+    action every time before
+    we execute above listed test scenarios.
+    This will increase our
+    coding effort and execution time.
+    ● The solution is to store cookies in a File.
+    Later, retrieve the values of cookie from this file and add to it our current browser.
+    ●session. As a result, we can skip the login steps
+    in every Test Case because your driver session has this information in it.
+● The application server now treats your browser
+session as authenticated and directly takes you to your requested URL.
+
+
+Handle Cookies?
+driver.manage().getCookies();// Return The List of all Cookies
+driver.manage().getCookieNamed(arg0); //Return specific cookie according to name
+driver.manage().addCookie(arg0); //Create and add the cookie
+driver.manage().deleteCookie(arg0); // Delete specific cookie
+driver.manage().deleteCookieNamed(arg0);
+ // Delete specific cookie according Name driver.manage().deleteAllCookies();// Delete all cookies

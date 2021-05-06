@@ -1,0 +1,13 @@
+
+
+    ● throw keyword is used
+    to throw an exception explicitly
+
+    ● throws keyword is used
+    to declare an exception
+    which means it works similar to the
+    try--catch block
+    ● throw new RuntimeException (“Invalid browser name!”) - throws ArithmeticException;
+    We throw RuntimeException in the Driver class. You need to pass the driver’s name (chrome, firefox,etc.) if the text does not meet the available browser we want to throw an exception.
+    public void deposit(double amount) throws RemoteException { // Method implementation
+throw new RemoteException(); }

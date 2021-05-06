@@ -1,10 +1,9 @@
 package com.trycloud.tests.tasks.cybertek;
 
-import com.trycloud.tests.pages.cybertek.BaseCybertekPage;
+import com.trycloud.tests.base.BaseCybertekPage;
 import com.trycloud.tests.pages.cybertek.CybertekHomePage;
 import com.trycloud.tests.pages.cybertek.HoverPage;
 import org.testng.Assert;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class HoverOverTest extends BaseCybertekPage {

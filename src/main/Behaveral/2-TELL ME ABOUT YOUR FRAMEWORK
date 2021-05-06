@@ -1,0 +1,256 @@
+
+     My framework is basically
+     established on
+     "MavenSeleniumCucumberJUnit"
+     test automation tools.
+
+     I have developed
+     my framework based
+     on Page Object Model
+     and Java is my
+     programming language.
+
+	 My Framework is a
+	 hybrid framework which
+     supports both BDD
+     and Data Driven Testing.
+
+	I use Scenario Outline,
+	Excel and JSON files
+    in order to implement
+    Data Driven Testing.
+
+	Initially I use pom.xml
+	file to centralize
+    my dependencies and
+    configure necessary
+    plugins and profiles.
+
+	I also have configuration.properties
+	file In these file
+	I store some common
+	data and environment
+    description such as
+     browser, credentials,
+     URL for UI Testing,
+
+     BaseURL, apiKeys, bearer
+     username and password
+     for API Testing
+
+     database connectivity
+     credentials
+     EC2 device information
+     for DataBase Testing.
+     All those data I can read
+     with ConfigurationReader
+     class in my utilities package.
+
+	I keep all my Feature
+    files and Test Data
+    such as excel,
+    json files under
+    the Resources directory.
+
+	In feature files
+	I have scenarios
+	or scenario outlines
+    I define my test
+    steps by using Gherkin language
+    key words such as
+    Given, When, Then, And.
+
+    I also use tags in order
+    to generate my Smoke
+    and Regression suites.
+
+	After declaration of the
+	application behaviours
+	in my feature file,
+
+    I create a Java class
+    in StepDefinitions
+    package which corresponds
+    a single feature file.
+    In each step definition class,
+     I create identical steps
+    in order to implement assertions.
+
+	Then I go to Pages package.
+    As I mentioned before,
+    I implement POM in my
+    framework in order to prevent
+    code redundancy,
+    make the codes reusable
+    and easy to maintain.
+
+    I also implement
+    all sort of Object
+    Oriented Programming
+    Concepts in my framework
+    such as
+    Encapsulation in POJO classes,
+    inheritance and abstraction
+    between BasePage
+    and other page classes and
+    polymorphism almost everywhere.
+
+    BasePage class  contains
+    all the common WebElements
+    and functionalities of the application.
+
+    For each single page
+    of the application,
+    I create a separate java class
+     which extends to that BasePage class.
+
+    By doing this, I reduce the code
+    repetition and
+    it makes my framework
+    more interactive among the pages.
+
+    In each page class,
+    I implement
+    Page Factory Design Pattern
+    by using PageFactory.initElements(driver, this) method.
+
+    By doing so, I locate all
+    the web elements by using
+    @FindBy annotation instead
+    of using findElement() method.
+
+    After locating all
+    necessary WebElements,
+    I call them from related
+    method in the same page class and
+    I return only the
+    actual result for each functionality.
+
+     After completing
+     my pages class.
+     I come into corresponding
+     step definition class again
+     and create objects
+     from that related page class.
+     By using these objects,
+     I can invoke all the related
+     methods in each step and
+     I can compare the
+     the actual result which comes
+     from page class and
+     the expected result
+     which mostly comes
+     from feature file.
+
+     I also have Hooks Class
+     in StepDefinitions package
+     and I use @Before/@After
+     annotations to gather
+     all common setup and
+     teardown requirements
+     for my step definitions
+     such as launching browser,
+     implicit wait, deleting cookies,
+     setting baseURI for API,
+     creating DataBase connection,
+     taking screenshot for failed scenarios,
+     closing the driver or
+     database connection and logging issues.
+
+	 After finishing
+	 all the setup,
+     now I am ready
+     to run my scenarios.
+     I have two runner
+     class in my framework.
+
+     First one is regular
+     Runner class and the
+     second one is FailedRunner class.
+     I use @RunWith(Cucumber.class)
+     annotation to run my test
+     cases with the help of JUnit.
+     I have a bunch of
+     Cucumber options
+     in runner class
+     such as features, glue,
+     plugin, dryRun and tags.
+
+     Initially I execute
+     test cases as dryRun
+     to make sure
+     that feature files and
+     stepDefinitions are mapping then
+
+     I execute my test cases
+     as dryRun is false.
+
+     I also have DB Utilities,
+     API Utilities, Browser Utilities,
+     ExcelReader and of course
+     my Driver class in utilities package.
+
+     In my Driver class
+     I prefer to use Singleton
+     Design Pattern which
+     contains a private WebDriver
+     object and
+     private constructor
+     and also a public getter method.
+
+     By doing so, I ensure that
+     there is going to be
+     only a single WebDriver
+     object throughout the framework
+     and none of the class
+     will be able to create
+     another WebDriver object.
+
+     If I need to implement
+     parallel testing,
+     I create "LocalThread<WebDriver>"
+     object which generates as much
+      browser as I define in my pom.xml file.
+
+     My framework produces
+     "default cucumber reports"
+     which is not that much fancy.
+     Because of that I also use
+     very detailed "Cucumber HTML Reports"
+     which generates bar charts,
+     pie charts and tables with
+     the help of cucumber reports
+     plugin in pom.xml file.
+
+     I achieve continuous
+     integration and schedule
+     my test executions
+     by using Jenkins.
+
+     I have regression
+     and smoke test jobs
+     on Jenkins which are
+     integrated with
+     my framework by using
+     GitHub URL. (I segregate my
+     regression and smoke
+     test execution by using
+     different maven goals on
+     Jenkins such as <verify Dcucumber.options="tags @smoke">)
+     That is pretty much about my framework.
+     If you have any particular question, I can elaborate on that topic.
+
+     j
+
+     j
+     j
+
+
+     j
+     j
+     j
+
+     j
+     j
+
+     j

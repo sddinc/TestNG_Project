@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Loan Department" >
+    <test name="Regression">
+        <groups>
+            <run>
+                <include name="Smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.Test_NG.test.day1"/>
+            <class name="com.Test_NG.test.PersonalLoan"/>
+            <class name="com.Test_NG.test.CarLoan"/>
+            <class name="com.Test_NG.test.HomeLoan"/>
+        </classes>
+    </test>
+</suite> 

@@ -1,0 +1,41 @@
+
+  ● Using software or computers to automate
+  manually done actions.
+
+  ● Test automation is automating the testing
+  process using specific softwares.
+  This requires new sets of skills and using
+  tools like Selenium,
+  cucumber, Serenity, UFT, appium, Protractor, etc.
+
+
+  How do you decide if tests can be automated?
+    ● Functionality has to bring
+     value to the business.
+
+    ● Functionality needs
+    to be working (no bugs).
+     Whatever you want to automate needs to be
+    working without any issue so you can automate it.
+
+    ● Functionality must be stable.
+
+  What functionalities cannot be automated using Selenium?
+    ● Captcha
+    ● Broken functionalities:
+    if the function is not working,
+    you cannot automate it.
+
+    ● QR or Bar Codes can
+    only be automated by using 3rd party API.
+
+    ● 3rd party dependencies:
+
+    ● Test cases
+     related to cosmetics,
+     look, etc., because they are not about functionality.
+
+
+
+
+

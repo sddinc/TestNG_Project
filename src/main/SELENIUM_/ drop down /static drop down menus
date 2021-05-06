@@ -1,0 +1,22 @@
+
+
+    ● if there is a select tag
+     we need to create a new object
+     from Selenium
+    ● This new object will
+    come with its own methods
+    like selectByValue, selectByIndex, etc.
+    Methods from Select Class:
+    Select s = new Select(driver.findElement(By.id(“cat”)));
+
+    Select by Value =  s.selectByValue("")
+    Select by VisibileText =s.selectByVisibleText("")
+    Select by Index =s.selectByIndex("")
+    ● If there is a select tagName, it means that 99% it is a static dropdown.
+
+
+    without SELECT tag
+
+    Find locator
+    and click on the
+    option you want to select

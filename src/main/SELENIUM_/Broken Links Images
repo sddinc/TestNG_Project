@@ -1,0 +1,39 @@
+
+    Broken links are links or URLs that are not reachable.
+    They may be down or not functioning due to some server error.
+    To find broken links using selenium it means
+    we need to check the link which is pointing to the wrong URL or invalid URL.
+    An URL will always have a status with 2xx which is valid.
+    There are different HTTP status codes which are having different purposes.
+    For an invalid request, HTTP status is 4xx and 5xx.
+
+    Some of the HTTP status codes:
+    200 – Valid Link
+    404 – Link not found
+    400 – Bad request
+    401 – Unauthorized
+    500 – Internal Error
+
+    Step to find broken links:
+    ● Collect all the links from the webpage.
+    All the links are associated with the Tag ‘a‘.
+    ● Create a list of type WebElement to store all the Link elements in it.
+    ● Now Create a Connection using URL object( i.e ., link)
+    ● Connect using the Connect Method.
+    ● Use getResponseCode () to get response code. eg 200
+    List<WebElement> links = driver.findElements(By.tagName("a"));
+        for (int i=0; i<links.size(); i++) {
+        String linkURL = links.get(i).getAttribute("href");
+           if (linkURL!= null) {
+           URL obj = new URL(linkURL);
+           HttpURLConnection conn = ((HttpURLConnection) obj.openConnection());
+           int rCode = conn.getResponseCode();
+           if (rCode == 200) {
+           System.out.println(i+ " Link is valid------" + linkURL); }
+           else {
+           System.out.println(i+ " Link is broken------" + linkURL); }
+           }else {
+           System.out.println(links.get(i).getText());
+           System.out.println(i+ " Link is broken ********" + linkURL); }
+           }
+           }

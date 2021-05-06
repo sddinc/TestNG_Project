@@ -1,0 +1,54 @@
+
+  ● Static Variable:
+    ○ It belongs
+    to the class
+    which means
+    there is only one copy.
+    ○ Static variable gets
+    memory only once in
+    the class at the
+    time of class loading
+    ○ Static can be
+    variables, method,
+    block, inner class.
+    ○ Static methods
+    cannot call
+    non-static members.
+  ● Static block will
+   be executed first.
+   Whenever you call the class,
+   the static block
+   will be called/executed before everything.
+   It will be
+   executed only once
+   when the class is loaded.
+
+  ● Singleton Driver: I have one Driver
+  declared static because
+  I don’t want anyone
+  to make a copy of
+  it but use the same variable.
+
+ Instance Variable:
+  It is the property of
+  the object which
+  means every
+  object will have its own copy
+
+ Instance block:It will be
+ called every
+ time the object
+ is created, even
+ before the constructor.
+
+
+
+
+
+
+
+
+
+
+
+   23

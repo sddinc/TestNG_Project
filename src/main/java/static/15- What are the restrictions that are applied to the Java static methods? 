@@ -1,0 +1,7 @@
+
+
+    -- The static method cannot use non-static data member
+    or call the non-static method directly.
+
+    --this and super cannot be used in static
+    context as they are non-static.

@@ -1,0 +1,9 @@
+
+
+
+    ● I check if the
+    locator is correct.
+    ● I make sure I don’t
+     have any synchronization issues.
+    ● I double-check if the
+     element is hidden inside an iframe.

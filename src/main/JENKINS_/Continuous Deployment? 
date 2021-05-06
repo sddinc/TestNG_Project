@@ -1,0 +1,8 @@
+
+
+   Continuous deployment means that every change that you make,
+   goes through the pipeline, and if it passes all the tests,
+   it automatically gets deployed into production.
+   When a developer checks in code, the automated processes take the code
+   and move it through the entire lifecycle and if it passes each gate,
+   it gets deployed directly to production.

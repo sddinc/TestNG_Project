@@ -1,0 +1,12 @@
+ Cucumber supports hooks which are blocks of code that run before and after each scenario (test case).
+● Cucumber hook allows us to better manage the code workflow and helps us to reduce the code redundancy.
+ We can say that it is an unseen step, which allows us to perform our scenarios or tests.
+● Hooks are very similar to @BeforeMethod & @AfterMethod in testNG.
+● Hook Class must be located under the step_definitions package or if you want to have it
+under a different package, you need to specify inside a runner class glue for the package with
+hook.
+● Hook Class will not run if dryRun=true
+● In my project, I implement screenshots inside Hook Class.
+● I use Scenario as a parameter in my before/after method
+● I use @Before for the actions I want to be implemented by any scenarios in the project.
+● Actions: maximizing the window, setting the implicit wait, and starting the webdriver.

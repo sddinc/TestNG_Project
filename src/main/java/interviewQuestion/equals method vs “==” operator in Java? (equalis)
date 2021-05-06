@@ -1,0 +1,9 @@
+
+    ● Double equals “==”
+    It is basically reference
+    and address comparison.
+    ● “.equals” checks if
+    the content is the same.
+     , .equals method will
+     look if they have
+     the same content. It is a content comparison.

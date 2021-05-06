@@ -1,0 +1,10 @@
+● Functionality has to bring value to the business.
+● Functionality needs to be working without any issue (no bugs).
+ ● Functionality must be stable.
+
+
+
+ ● Captcha
+ ● Broken functionalities: if the function is not working,
+ we cannot automate it.
+  ● QR or Bar Codes can only be automated by using 3rd party API.

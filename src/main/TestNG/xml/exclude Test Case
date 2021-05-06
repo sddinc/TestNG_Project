@@ -1,0 +1,13 @@
+
+How to exclude a particular test method from a test case execution?
+
+Using Exclude tag in our testng.xml
+ <suite name="Sample Test Suite" >
+   <test name="Exclude Test" >
+    <classes>
+        <class name="AddTestCase">
+            <methods>
+                <include name="addDepartment" />
+                <exclude name="addEmployee" /> </methods>
+        </class> </classes>
+</test> </suite>

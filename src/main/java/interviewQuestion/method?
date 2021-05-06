@@ -1,0 +1,6 @@
+
+
+  A definition of actions that are executed whenever called.
+  Methods allow these actions to be created
+  once and called any number of times.
+  This makes the code reusable.

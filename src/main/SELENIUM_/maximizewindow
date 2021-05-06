@@ -1,0 +1,9 @@
+
+
+  ➔ driver.manage().window().maximize();
+
+  In some cases, maximize()
+  will not work>so what will be the way around?
+
+  ➔ ChromeOptionsoptions=newChromeOptions();
+  options.addArguments("startmaximized");

@@ -1,0 +1,26 @@
+    Page Object Model is a design pattern.
+
+    For each page
+    in the application,
+    there should be a
+    corresponding page class.
+
+    This page class will
+    find the WebElements
+    of that web page and
+    also contains Page Methods
+    which perform operations
+    on those Web Elements.
+
+
+    How did you implement the POM in your framework?
+
+    I work on a Ice Mortgage Technology application.
+    I have the loginPage, LandingPage, and passwordPage,
+    and I also have different menu options.
+    In each page class, I store the web elements
+    and their actions/ methods.
+    For example, in the customers Page,
+    I have the elements for that specific
+    page and also their actions like save & close,
+    create new customer, etc. I separate all test cases from the

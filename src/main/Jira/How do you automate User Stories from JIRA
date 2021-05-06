@@ -1,0 +1,7 @@
+
+    ● Look at the description - Agile story
+    ● Create feature file and save file as Jira story.feature
+        ○ Add scenario located in Acceptance criteria
+    ● Run cukesRunner with dryRun=true
+    ● Implement the methods
+    ● BEFORE AUTOMATING THE TEST CASES IN JIRA ALWAYS MANUAL TEST IT FIRST

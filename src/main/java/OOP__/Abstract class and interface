@@ -1,0 +1,50 @@
+     Both help us to achieve
+     abstraction in Java and
+     both cannot be create object
+     We can add abstract
+     methods in both of them
+
+
+    Class can extend ONE
+    abstract class
+    Class can implement
+    MULTIPLE interfaces
+
+     -Abstract classes can
+     have abstract and
+     non-abstract, static methods
+     -Interfaces can
+     have abstract, default, static methods
+
+
+
+    Abstract classes can
+    have instance, static and final variables.
+    Interfaces can only
+    have public static final variables.
+
+    Abstract classes
+    can have constructors
+    Interfaces cannot
+    have constructors
+
+    Abstract classes can
+    use all access modifiers
+    with variables and methods
+    Interfaces can only
+    use public access modifier.
+
+
+
+
+
+
+
+
+
+
+
+    ggg
+
+    g
+

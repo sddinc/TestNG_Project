@@ -1,20 +1,15 @@
 package com.trycloud.tests.tasks.cybertek;
 
-import com.github.javafaker.DateAndTime;
-import com.trycloud.tests.pages.cybertek.BaseCybertekPage;
+import com.trycloud.tests.base.BaseCybertekPage;
 import com.trycloud.tests.pages.cybertek.CybertekHomePage;
 import com.trycloud.tests.pages.cybertek.DropDownPage;
-import javafx.scene.input.DataFormat;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
-import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
 

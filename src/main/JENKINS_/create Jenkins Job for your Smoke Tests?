@@ -1,0 +1,22 @@
+
+    1. Click on New Item
+    2. Enter name: smoke_tests (use unique name and no space as convention)
+    3. Select freestyle project
+    4. Click OK. (if not clickable, refresh the page)
+    5. Pull the code from the GitHub.
+    You need to get the project’s URL and paste it to Jenkins.
+    6. Specify Build Triggers to define the times,
+    days, or dates that you want the test to be run.
+    7. Go to Build → click on “add build step”
+    and select “invoke top-level maven targets” to be
+    able to execute maven life-cycle commands like test, verify, install, deploy, etc.
+    Enter command: clean test -Dcucumber.options=“--tags@smoke_test”
+    Or for regression enter: clean test -Dcucumber.options=“--tags@regression”
+    8. Go to “Post Build-Actions” and click “add post-build actions”
+    and select “cucumber report.” (This is available because we have installed the cucumber html reports plugin to our jenkins. Cucumber
+    reports plugin will generate html reports for every build. Every time we run smoke tests on jenkins, we get a
+    new report. and all reports for all builds are saved.)
+    9. Go to “Post Build-Actions” and click “add post-build actions”
+    and select “Editable Email Notification.” (HereIconfigureitsothateveryoneinmyagileteamisnotifiedaboutthetestresults.)
+    Remember: Change email trigger to “ALWAYS”
+    10. Save and click Build Now!

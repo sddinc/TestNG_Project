@@ -1,0 +1,12 @@
+
+    ● Test Base class is the
+    class where I have most
+    used methods in my tests.
+    ● My test classes extend the
+    Test Base class and thus
+    have access to those methods. This
+    helps me us make my code reusable
+    ● Before/after test methods
+    wait/synchronization utility methods.
+    ○ SwitchToWindow(title)
+    ○ WebDriver driver;

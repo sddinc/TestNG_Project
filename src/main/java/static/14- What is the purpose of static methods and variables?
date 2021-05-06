@@ -1,0 +1,22 @@
+
+
+  ● The methods or variables
+ shared the same value
+ of objects of the class.
+
+  The static members belong
+  to the class itself,
+  not to any single object.
+  we do not need to create
+  an object to access
+  those static variables or methods.
+  It can be done directly
+  through the class name.
+
+  ○ For example:
+   the name of the
+   college is
+   the common attribute
+   to all the students.
+   Therefore, the college
+   name will be defined as static.

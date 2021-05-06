@@ -1,0 +1,22 @@
+● Primitive: (primitiveis)
+     It is simply just a container
+     to keep/store data.
+     Boolean, byte, char, int, float, double, long, short.
+● Wrapper Class: (wrapperis)
+   Every primitive
+   has a wrapper class
+
+    When we create an
+    object to a wrapper class,
+    we can store
+    primitive data types.
+    In other words,
+    we can wrap a primitive
+    value into a wrapper class object.
+
+   All wrapper class
+   are immutable in java.
+   Wrapper class
+   is ONLY loyal to its primitive
+   Default value of wrapper class is ONLY null
+

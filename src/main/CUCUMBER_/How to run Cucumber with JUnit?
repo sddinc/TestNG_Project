@@ -1,0 +1,2 @@
+● Add cucumber JUnit dependency
+● Adding @RunWith (Cucumber.class) on top of cukesRunner class

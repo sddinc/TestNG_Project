@@ -1,0 +1,14 @@
+
+
+   ● Xray plugin knows your scenarios based
+   on the tags you add at the top of them.
+   For example, I have a “@CT25-19” tag for “Verify Dashboard Page” scenario,
+   this tag is also used in the Jira so Xray can map it out.
+   ● Each scenario is a test in Jira; each feature file is a test set in
+   Jira since there are more than one tests in a feature file.
+
+    1. Create a test on Jira.
+    2. If needed, we can create a test set. Keep in mind that one jira test/ticket is used for only
+    one scenario or scenario outline.
+    3. Export test/test set as a cucumber feature file.
+    4. Import that feature file into your project.

@@ -1,0 +1,37 @@
+
+
+    ● I create utilities
+    classes in my project
+    for better code
+    reusability and reduce
+    redundant codes.
+    In the utilities classes,
+    I use static methods
+    so that I can reach/call
+    by the class name
+    and use anywhere in my project.
+
+    ○ In my project:
+    ■ public static WebDriver getDriver (String browser) method
+    ■ public static void closeDriver () method
+    ■ Browser Utils: waitPlease(); verifyIsDisplayed() are static
+    ■ ConfigurationReader: public static getProperty(String key)
+
+    ● I also have a DatabaseUtil class
+    where I create static methods
+    to connect and run queries and get data.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    333

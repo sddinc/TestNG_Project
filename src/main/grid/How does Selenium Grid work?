@@ -1,0 +1,10 @@
+
+    Grid is a set up that consists of Hub and nodes
+    Hub is a central machine that all nodes connect to
+    Has IP address and port number. Then we link the Hub to Nodes
+    There is a main machine which is called a Hub and multiple nodes (the machines that actually run our tests)
+    The order of execution is;
+    Our code > remote driver > Selenium Hub > Selenium nodes (might be multiple ones)
+    I asked my Selenium Hub to run my tests
+    Then selenium hub will find a node that is linked to the hub and run my test from there.
+    We can have as many nodes as we want but only one hub.

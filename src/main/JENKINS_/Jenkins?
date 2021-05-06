@@ -1,0 +1,15 @@
+
+
+    ● It is a Continuous Integration /
+    Continuous Deployment tool written in Java.
+    ● It is used to build and test your
+    software projects continuously making it easier for
+    developers to integrate changes to the project,
+    and making it easier for users to obtain a up-to date product.
+
+    ● You can automate the build and testing, and also schedule it.
+
+    ● Jenkins has 3 components:
+    ○ Code Change: Devs makes changes to the application code
+    ○ Test: CI tool automatically picks up the changes and tests the application
+    ○ Deploy: CI tool deploys the application with changes

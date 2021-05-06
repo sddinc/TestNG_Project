@@ -1,0 +1,9 @@
+
+    ● Workflow:
+    To do>In Progress(can have blocked in here too)>Review(Tech lead review the code before moving to done>Done
+
+    ● Blocked: Go to story and click on options and click on more options> blocked
+    ○ Write a comment about why it is blocked
+    ○ Scrum master will have to deal with ASAP
+    ○ Nothing should be in the block for more than a day
+    ○ Once it's fixed you can change to blocker resolved
