@@ -1,0 +1,7 @@
+
+   In this type of testing the
+   application is tested against
+   heavy load such as complex
+   numerical values, large number of inputs,
+   large number of queries etc.
+   which checks for the stress/load the applications can withstand.

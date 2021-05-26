@@ -1,6 +1,8 @@
 
 
- ● The static keyword can be used with class level variables to make it global
+ ● The static keyword
+ can be used with class
+ level variables to make it global
     all the objects will share the same variable.
  ● The static keyword can be used with methods also. A static method can access
    only static variables of class and invoke only static methods of the class.

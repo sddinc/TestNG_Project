@@ -1,5 +1,21 @@
 
 
+    Page Object Model is a design pattern
+    is an approach for enhancing
+    test maintenance and reducing code redundancy.
+    How we achieve it? We create seperate
+    page classes for each and every single
+    page of our application and put all the
+    locators and releated methods in that class.
+    We then create a page object class what
+    we call test class, completely separated
+    from the page object class.
+
+
+
+
+
+
       for UI Automation  We just
       need to find the elements
       and perform automations on it.

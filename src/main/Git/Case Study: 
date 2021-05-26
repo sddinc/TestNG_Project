@@ -1,3 +1,7 @@
     Case Study: Conflict and Solution 1:
     Case:
-    You have changed a file in your local repo and one of your teammates also worked on the same file, MADE some CHANGES and committed that file to the remote repo BEFORE you did it. When you try to pull or commit, you will have a CONFLICT.
+    You have changed a file in your local repo and one
+     of your teammates also worked on the same file,
+      MADE some CHANGES and committed that file to
+      the remote repo BEFORE you did it.
+      When you try to pull or commit, you will have a CONFLICT.

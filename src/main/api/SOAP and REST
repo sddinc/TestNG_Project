@@ -1,0 +1,24 @@
+
+REST:
+	 is architectural style
+	 stateless
+	 requires HTTP
+	 supports JSON, XML, HTML, CSV, plain text
+	 easy documentation and easy to understand
+	 efficient and faster
+	 needs less bandwidth
+	 less secure
+	 Uses JAXRS API
+
+SOAP:
+	 XML based protocol itself
+	 State or stateless
+	 Can work with HTTP, SMPT(Simple Mailing Transfer Protocol) or FTP(File Transfer Protocol)
+	 Only works with XML
+	  Documentation is complex and hard to understand
+     	 Slower than REST
+     	 Needs more banwidth
+     	 More secure
+     	 Uses JAXWS API
+     	 Platform and programming language independent
+

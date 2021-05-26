@@ -1,0 +1,58 @@
+     I go to office at 9 in the morning,
+     first thing I check my emails for
+     the smoke test result which is
+     scheduled to execute at 6 am
+     in order to see the application is up and
+     running and environment is stable.
+     At the end of execution it will auto
+     generate a report and sends out to the QA team.
+
+     If there is any issue I will rerun
+     the smoke test and analyze it.
+         If it is a service issue,
+         I immediately contact DevOps.
+         If it is about my scripts,
+         I debug my scripts.
+         If it is a bug, I log the defect.
+
+     Then I check all my emails to make sure
+     that I am not missing anything from yesterday.
+     And I also check Jira board to review
+     what needs to be done on that day in which priority.
+     I also like taking notes and creating
+     my own daily agenda on my notebook.
+     I check if I have something special
+     to do but not officially written in Outlook or Jira.
+
+      Now, I am ready for the daily scrum meeting
+      which takes place at 10:00 every day and
+      regularly takes 20 minutes. We discuss what
+      we did yesterday, what we are going to do
+      today and more importantly if there is
+      any impediment holding me to do my job.
+
+      Then I go back to my desk and start
+       working on my test scripts.
+       We have a CORE HOUR policy till
+       12.00 for 2 hours and everybody
+       heads down and work at that time period,
+       no distraction, no one can set up any meeting.
+
+      My tasks differs depending
+      on which part of sprint we are.
+      Let's say if it is early sprint
+      I would participate in planning
+      meeting where we go over the user
+      stories again and then I start working
+       on writing test scripts.
+      Towards the mid sprint where the code
+      is being deployed I would complete
+      my automation and start execution.
+      If it is towards to the end of the
+      sprint I would be busy with getting
+      reports ready and participate in
+      demo and retro at the end of the sprint.
+      Also every second Tuesday of the sprint
+      we have code review meeting among QA team.
+      So this is basically my daily activities.
+

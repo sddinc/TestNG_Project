@@ -1,0 +1,7 @@
+We have 6 different environment in my company.
+ 2 different Develop environment ==> for developers
+ 2 different QA environment ==> for testers
+ 1 stage environment ==> for regression
+ 1 PreProduction environment ==> for E2E test
+ 1 UAT environment ==> for regression
+ 1 Production environment ==> for end users (Real life)

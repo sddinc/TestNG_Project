@@ -1,0 +1,11 @@
+Some of the Database testing are following:
+	 Data validity
+	 Data integrity testing
+	 Performance check
+	 Storage procedures testing
+	 Triggers
+	 Functions testing
+	 Sequences testing
+	 Schema Database tables and associated Columns, Keys and Indexes
+	 Database server validations
+	 Validating data duplication
