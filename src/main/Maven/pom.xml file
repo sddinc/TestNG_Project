@@ -1,0 +1,18 @@
+
+   A Project Object Model or POM is
+  the fundamental unit of Maven.
+  It is an XML file that contains
+  information about the project and
+  configuration details used by Maven
+  to build the project. When executing
+  a task or goal, Maven looks for the
+  pom.xml file in the project.
+  It reads the pom.xml, gets the needed
+  configuration information,
+  then executes the goal.
+  Some of the configuration that can be specified
+  in the pom.xml are the project dependencies,
+  the plugins or goals that can be executed,
+  the build profiles, and so on. Other
+  information such as the project version,
+  description and so on can also be specified.

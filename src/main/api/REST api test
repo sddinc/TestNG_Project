@@ -1,0 +1,23 @@
+
+    I verify that each REST API endpoint is working as expected and
+     data structure and schema is a proper JSON
+     (it is also named contract testing).
+    I send POST, PUT, GET, DELETE type of requests
+    and verify response status code and response body.
+    I also do positive and negative testing of API.
+
+    How I do positive testing,
+    	 I send valid path and query parameters,
+    	 valid headers,
+    	 valid request body to valid url and verify that
+    	 response status code is correct and
+    	 response body is as expected
+
+    How I do negative testing,
+    	 I send invalid request parameters
+    	 or invalid headers
+    	 or invalid request json body and verify
+    	 that response status code is not 200
+    	 and response body contains error message
+    	 (for example there are 100 employees numbered from
+    	  1 to 100 I send 101 as a parameter and I should be able see 404 Not Found The requested resource was not found.)

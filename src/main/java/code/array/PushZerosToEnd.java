@@ -25,7 +25,7 @@ public class PushZerosToEnd {
 
     public static int[] pushZerosToEnd(int[] arr) {
         int []output=new int[arr.length];
-        int count=0;
+       int count=0;
         for (int i = 0; i <arr.length ; i++) {
             if(arr[i]!=0){
                 output[count]=arr[i];

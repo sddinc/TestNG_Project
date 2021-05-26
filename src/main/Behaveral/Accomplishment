@@ -8,6 +8,29 @@
     PRIVATE WEBELEMENT
 
 
+    When I started to work in my last company
+     we were in 5th Sprint of the project.
+     I started the work and understand
+     the application and framework.
+     After 2 sprints, I figured out that almost
+     nobody was using scenario outline in my QA team.
+     They had to repeat almost each similar step because
+     of that issue. It was increasing redundancy
+     and work load over my team. Actually I like
+     implementing DDT in my frameworks as much as possible.
+     Fortunately we were just at the
+     beginning of the project and that was a
+     chance to fix this redundancy as soon as possible.
+    I decided to talk with my QA lead to solve this
+    issue. After telling to my QA lead, he liked
+    it and told me to prepare a short presentation
+    to tell other team members during retrospective meeting.
+    Almost everybody embraced the idea and we started
+    to use Scenario Outline for each test case
+    if we have to insert similar data in the the same test case.
+
+
+
 
 
 

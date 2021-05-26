@@ -1,6 +1,7 @@
 
     In my project we have REST APIs. For manual testing we use Postman.
-    We set global and environment variables so we can easily change any values from one location so that
+    We set global and environment variables so we can easily
+    change any values from one location so that
     the respective change can immediately be updated wherever the variable is called.
     We also use Postmans available JavaScript methods to validate status codes and verify data from our response body,
     and Postman’s collection runner to execute multiple calls at once in the desired order.

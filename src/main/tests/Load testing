@@ -1,0 +1,8 @@
+
+    It is a test to check the user’s
+    response time of number of
+    users using any one scenario
+   (single business process)
+   of the same application at the same time.
+What is Stress testing?
+In this type of testing the application is tested against heavy load such as complex numerical values, large number of inputs, large number of queries etc. which checks for the stress/load the applications can withstand.

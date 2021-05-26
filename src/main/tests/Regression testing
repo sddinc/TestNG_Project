@@ -1,0 +1,7 @@
+
+   When functionality is added to an application,
+   we need to make sure that the newly added
+   functionality does not break the application.
+   In order to make it sure, we perform a repeated
+   testing which is called Regression Testing.
+   We also do regression testing after the developers fix the bugs
